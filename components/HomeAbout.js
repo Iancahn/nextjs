@@ -2,7 +2,7 @@
 // import { motion } from "framer-motion";
 // import components
 
-import aboutus from '../public/assets/coffee.mp4';
+// import aboutus from '../public/assets/coffee.mp4';
 
 function HomeAbout() {
     return (
@@ -12,7 +12,7 @@ function HomeAbout() {
                 <p className="centered2" >Learn more about the team behind our success.</p>
                 <div className="row">
                     <div className="column">
-                        <video src={aboutus} alt="about the PixelByPixel team" className="column-video" autoPlay loop muted />
+                        {/* <video src={aboutus} alt="about the PixelByPixel team" className="column-video" autoPlay loop muted /> */}
                     </div>
                     <div className="column">
                         <p>Since we first started designing websites way back in early 2014,
