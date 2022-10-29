@@ -95,11 +95,19 @@ video {
 
 .service-icon {
     text-align: center;
-    margin: 3em 2em 0em 2em;
-    width: 36px;
-    height: 36px;
-    border-radius: 100%;
+    // margin: 3em 2em 0em 2em;
+    padding: 10px;
+    width: 80px;
+    height: auto;
     background-color: $pixel-yellow;
+}
+
+.icon-circle {
+    background-color: green;
+    border-radius: 100%;
+    margin: 3em 2em 0em 2em;
+    width: 100px;
+    height: 100px;
 }
 
 // .work-block img {

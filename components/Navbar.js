@@ -1,43 +1,52 @@
-import React from 'react';
-import { NavLink } from "react-router-dom";
+// Import Functions
+import Link from 'next/link';
+import Image from 'next/image';
+
 // import FontAwesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
     return (
         < header >
             {/* Add lottie animation logo at later stage */}
-            <NavLink className="nav-link" to="/">
-                <img className="main-logo" alt="The main PixelByPixel logo" />
-            </NavLink>
+            <Link className="nav-link" href="/">
+                <Image
+                    src="/assets/PBP-2022-Logo-white.png"
+                    height={100}
+                    width={429}
+                    alt="The main PixelByPixel logo"
+                    className="main-logo"
+                />
+            </Link>
             <nav>
                 <ul class="main-nav">
-                    <li><NavLink className="nav-link" to="/">
+                    <li><Link className="nav-link" href="/">
                         Home
-                    </NavLink></li>
-                    <li className='dropdown'>Our Services <FontAwesomeIcon icon={faCaretDown} />
+                    </Link></li>
+                    {/* <li className='dropdown'>Our Services <FontAwesomeIcon icon={faCaretDown} /> */}
+                    <li className='dropdown'>Our Services
                         <div className='dropdown-content'>
-                            <NavLink className="nav-link" to="/monthtomonth">
+                            <Link className="nav-link" href="/MonthToMonth">
                                 Month to Month
-                            </NavLink>
-                            <NavLink className="nav-link" to="/webdesign">
+                            </Link>
+                            <Link className="nav-link" href="/WebDesign">
                                 Website Design
-                            </NavLink>
-                            <NavLink className="nav-link" to="/graphicdesign">
+                            </Link>
+                            <Link className="nav-link" href="/GraphicDesign">
                                 Graphic Design
-                            </NavLink>
+                            </Link>
                         </div>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/aboutus">
+                        <Link className="nav-link" href="/AboutUs">
                             About Us
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/contactus">
+                        <Link className="nav-link" href="/ContactUs">
                             <button className="contact-us-btn">Contact Us</button>
-                        </NavLink>
+                        </Link>
                     </li>
                 </ul>
             </nav >

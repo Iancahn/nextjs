@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 // import Animation
 // import { motion } from "framer-motion";
@@ -16,6 +17,10 @@ import Calltoaction from '../components/Calltoaction';
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Pixel By Pixel Digital Marketing Agency</title>
+        <link rel="stylesheet" href="https://use.typekit.net/fkp5sti.css" />
+      </Head>
       <HomeHero />
       <HomeIntro />
       <HomeServices />

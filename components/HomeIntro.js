@@ -1,3 +1,6 @@
+// import Functionality
+import Image from 'next/image';
+
 // import Animation
 // import { motion } from "framer-motion";
 // import components
@@ -17,7 +20,12 @@ function HomeIntro() {
                         <p>At Pixel By Pixel, our team of website developers and digital marketers bring the skills above and beyond the ordinary to every project. Our web design and development team is involved in professional Business-to-Business and Business-To-Client web design and development.</p>
                     </div>
                     <div className="column">
-                        <img src={homeIntro} alt="Website design services to help you grow online." className="column-img" />
+                        <Image
+                            src={homeIntro}
+                            width={600}
+                            height={441}
+                            alt="Website design services to help you grow online."
+                            className="column-img" />
                     </div>
                 </div>
             </div>

@@ -1,3 +1,6 @@
+// import functionality
+import Image from 'next/image';
+
 import WorkProject from './WorkProject';
 // import Animation
 // import { motion } from "framer-motion";
@@ -27,7 +30,7 @@ function HomeServices() {
                         <a href="https://www.google.com" target="_blank">
                             <div className="grid-item-background"
                                 style={{
-                                    backgroundImage: `url(${fresca})`,
+                                    backgroundImage: `url(${fresca.src})`,
                                     height: '280px',
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
@@ -44,7 +47,7 @@ function HomeServices() {
                         <a href="https://www.google.com" target="_blank">
                             <div className="grid-item-background"
                                 style={{
-                                    backgroundImage: `url(${steakshop})`,
+                                    backgroundImage: `url(${steakshop.src})`,
                                     height: '280px',
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
@@ -61,7 +64,7 @@ function HomeServices() {
                         <a href="https://www.google.com" target="_blank">
                             <div className="grid-item-background"
                                 style={{
-                                    backgroundImage: `url(${jaco})`,
+                                    backgroundImage: `url(${jaco.src})`,
                                     height: '280px',
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
@@ -79,7 +82,7 @@ function HomeServices() {
                         <a href="https://www.google.com" target="_blank">
                             <div className="grid-item-background"
                                 style={{
-                                    backgroundImage: `url(${huweliksfokus})`,
+                                    backgroundImage: `url(${huweliksfokus.src})`,
                                     height: '280px',
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
@@ -96,7 +99,7 @@ function HomeServices() {
                         <a href="https://www.google.com" target="_blank">
                             <div className="grid-item-background"
                                 style={{
-                                    backgroundImage: `url(${cycad})`,
+                                    backgroundImage: `url(${cycad.src})`,
                                     height: '280px',
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
@@ -113,7 +116,7 @@ function HomeServices() {
                         <a href="https://www.google.com" target="_blank">
                             <div className="grid-item-background"
                                 style={{
-                                    backgroundImage: `url(${nty})`,
+                                    backgroundImage: `url(${nty.src})`,
                                     height: '280px',
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',

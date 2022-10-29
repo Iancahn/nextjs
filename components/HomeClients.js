@@ -1,3 +1,6 @@
+// import functionality
+import Image from 'next/image';
+
 // import Animation
 // import { motion } from "framer-motion";
 // import components
@@ -29,44 +32,95 @@ function HomeClients() {
                 <div className="row">
                     <div className="portfolio-padding">
                         <div className="column-six">
-                            <img src={ex10dor} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image
+                                src={ex10dor}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={galaxydoors} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image
+                                src={galaxydoors}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={greenco} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image
+                                src={greenco}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={property} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={property}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={wildjasmine} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={wildjasmine}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={steakshop} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={steakshop}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="portfolio-padding">
                         <div className="column-six">
-                            <img src={dubai} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={dubai}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={effectivemarketing} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={effectivemarketing}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={litzkee} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={litzkee}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={midas} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={midas}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={worx} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={worx}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                         <div className="column-six">
-                            <img src={sepro} alt="companies we have worked with" className="portfolio-logos" />
+                            <Image src={sepro}
+                                width={175}
+                                height={87}
+                                alt="companies we have worked with"
+                                className="portfolio-logos" />
                         </div>
                     </div>
                 </div>
