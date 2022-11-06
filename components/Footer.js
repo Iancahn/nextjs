@@ -28,7 +28,7 @@ function Footer() {
                 <div className="container">
 
                     <div className='row'>
-                        <div className="column-three">
+                        <div className="column-four">
                             <div>
                                 <Image
                                     src={footerLogo}
@@ -43,18 +43,23 @@ function Footer() {
                                 <p className="copyright">© Copyright 2022 | All Rights Reserved | PixelByPixel</p>
                             </div>
                         </div>
-                        <div className="column-three quick-links">
+                        <div className="column-four quick-links">
+                            <div>
+                                <h4><span style={{ textDecoration: "underline" }}>Our Services</span></h4>
+                                <li><Link className="footer-links" href="/MonthToMonth">Month To Month</Link></li>
+                                <li><Link className="footer-links" href="/WebsiteDesign">Website Design</Link></li>
+                                <li><Link className="footer-links" href="/GraphicDesign">Graphic Design</Link></li>
+                            </div>
+                        </div>
+                        <div className="column-four quick-links">
                             <div>
                                 <h4><span style={{ textDecoration: "underline" }}>Quick Links</span></h4>
                                 <li><Link className="footer-links" href="/">Home</Link></li>
-                                <li><Link className="footer-links" href="/monthtomonth">Month To Month</Link></li>
-                                <li><Link className="footer-links" href="/webdesign">Website Design</Link></li>
-                                <li><Link className="footer-links" href="/graphicdesign">Graphic Design</Link></li>
-                                <li><Link className="footer-links" href="/aboutus">About Us</Link></li>
-                                <li><Link className="footer-links" href="/contact">Contact Us</Link></li>
+                                <li><Link className="footer-links" href="/AboutUs">About Us</Link></li>
+                                <li><Link className="footer-links" href="/ContactUs">Contact Us</Link></li>
                             </div>
                         </div>
-                        <div className="column-three">
+                        <div className="column-four">
                             <div className="footer-up">
                                 <button onClick={ScrollTop} className="footer-btn">BACK TO TOP <FontAwesomeIcon icon={faAngleUp} /> </button>
                                 {/* <button onClick={ScrollTop} className="footer-btn">BACK TO TOP </button> */}

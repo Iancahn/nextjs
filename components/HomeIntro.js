@@ -6,7 +6,7 @@ import Image from 'next/image';
 // import components
 
 // import images
-import homeIntro from '../public/assets/Intro-Website-design-services.jpg';
+import homeIntro from '../public/assets/pixelbypixel-intro.jpg';
 
 function HomeIntro() {
     return (

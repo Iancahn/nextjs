@@ -4,14 +4,14 @@ $font-stack: "proxima-nova", sans-serif;
 // 400 and italic
 $font-stack-bold: "proxima-nova", sans-serif;
 // 700 and italic
-$pixel-blue: #0065f2;
+$pixel-blue: #014ce6;
 $pixel-blueAccent: #1212FF;
-$pixel-darkBlue: #09133c;
-$pixel-yellow: #EFFF06;
+$pixel-darkBlue: #00143d;
+$pixel-yellow: #fde50b;
 $pixel-black: #0a0a0a;
 $pixel-white: #fff;
 $pixel-offwhite: #ECECEC;
-$pixel-gray: #181818;
+$pixel-gray: #0c0c0c;
 
 
 @import "./navbar";
@@ -265,6 +265,11 @@ h3.section-title-white span:after {
     width: 33.33%;
 }
 
+.column-four {
+    float: left;
+    width: 25%;
+}
+
 .column-six {
     float: left;
     width: 16.5%;
@@ -304,7 +309,6 @@ footer {
 
 .service-title {
     color: $pixel-white;
-    background-color: #ffc801;
 }
 
 .width-test {

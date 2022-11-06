@@ -1,4 +1,4 @@
-// import videoBg from '../public/assets/PixelByPixel-homevideo.mp4'
+// import videoBg from '../public/assets/PixelByPixel-homevideo.mp4';
 
 function HomeHero() {
     return (
