@@ -23,9 +23,7 @@ function HomeServices() {
                         </div>
                     </div>
                     <div className="work-block">
-                        <div className="icon-circle">
-                            <FontAwesomeIcon icon={faCode} className="service-icon"></FontAwesomeIcon>
-                        </div>
+                        <FontAwesomeIcon icon={faCode} className="service-icon"></FontAwesomeIcon>
                         <div className="work-block-text">
                             <h4 className="service-name">Website Design</h4>
                             <p>Your company's website is the very first impression potential clients get of your company. Get your website professionally designed using the latest web technologies and mobile friendly and responsive design styles.</p>
