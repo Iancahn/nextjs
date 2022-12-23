@@ -24,7 +24,7 @@
 //     color: $pixel-white;
 //     text-align: center;
 //     vertical-align: middle;
-//     background-color: $pixel-black;
+//     background-color: $pixel-darkBlue;
 //     border: 1px solid transparent;
 //     padding: 0.8rem 1.6rem;
 //     font-size: 1rem;
@@ -33,7 +33,7 @@
 //     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
 //     &:hover {
-//         color: $pixel-black;
+//         color: $pixel-darkBlue;
 //         background-color: $pixel-white;
 //     }
 // }
@@ -43,7 +43,7 @@
     margin-top: 2em;
     display: inline-block;
     font-weight: 400;
-    color: $pixel-black;
+    color: $pixel-darkBlue;
     text-align: center;
     vertical-align: middle;
     background-color: $pixel-white;
@@ -57,7 +57,7 @@
 
     &:hover {
         color: $pixel-white;
-        background-color: $pixel-black;
+        background-color: $pixel-darkBlue;
         cursor: pointer;
     }
 
@@ -73,7 +73,7 @@
     color: $pixel-white;
     text-align: center;
     vertical-align: middle;
-    background-color: $pixel-black;
+    background-color: $pixel-darkBlue;
     border: 1px solid transparent;
     padding: 0.8rem 1.6rem;
     font-size: 1.05rem;
@@ -84,7 +84,7 @@
     letter-spacing: 1px;
 
     &:hover {
-        color: $pixel-black;
+        color: $pixel-darkBlue;
         background-color: $pixel-white;
         cursor: pointer;
     }
@@ -98,7 +98,7 @@
     color: $pixel-white;
     text-align: center;
     vertical-align: middle;
-    background-color: $pixel-black;
+    background-color: $pixel-darkBlue;
     border: 1px solid transparent;
     padding: 0.8rem 1.6rem;
     font-size: 1.05rem;

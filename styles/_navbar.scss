@@ -24,7 +24,7 @@ header {
 
     .dropdown-content a {
         float: none;
-        color: $pixel-black;
+        color: $pixel-darkBlue;
         text-decoration: none;
         display: block;
         text-align: left;
@@ -46,7 +46,7 @@ header {
         font-size: 1.3rem;
         border: none;
         outline: none;
-        color: $pixel-black;
+        color: $pixel-darkBlue;
         padding: 0.65em 1em 0px 0.8em;
         background-color: inherit;
         font-family: inherit;
@@ -107,7 +107,7 @@ header {
 
     .contact-us-btn {
         background-color: $pixel-white;
-        color: $pixel-black;
+        color: $pixel-darkBlue;
         font-size: 1rem;
         padding: 1rem 2rem;
         text-transform: uppercase;
@@ -131,7 +131,7 @@ header.active {
     box-shadow: rgb(94 98 119 / 30%) 0 0 20px 2px;
 
     .contact-us-btn {
-        background-color: $pixel-black;
+        background-color: $pixel-darkBlue;
         color: $pixel-white;
         font-size: 1rem;
         padding: 1rem 2rem;
@@ -139,7 +139,7 @@ header.active {
         letter-spacing: 2px;
         cursor: pointer;
         transition: .2s ease-in-out;
-        border: 2px solid $pixel-black;
+        border: 2px solid $pixel-darkBlue;
 
         &:hover {
             background-color: $pixel-blue;
@@ -160,7 +160,7 @@ header.active {
     }
 
     a {
-        color: $pixel-black;
+        color: $pixel-darkBlue;
         text-decoration: none;
     }
 
@@ -177,7 +177,7 @@ header.active {
         text-align: center;
         display: block;
         font-size: 1.4rem;
-        color: $pixel-black;
+        color: $pixel-darkBlue;
     }
 
     .dropdown:hover {

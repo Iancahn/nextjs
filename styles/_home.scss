@@ -51,7 +51,6 @@
     line-height: 3rem;
     font-weight: 400;
     text-align: center;
-    max-width: 52vw;
 }
 
 .intro-button {
@@ -61,7 +60,7 @@
     font-weight: 700;
     background-color: transparent;
     text-transform: uppercase;
-    border: 1px solid $pixel-black;
+    border: 1px solid $pixel-darkBlue;
     transition: 0.3s;
 }
 
@@ -95,7 +94,7 @@
     padding: 15px;
     width: 60px;
     height: 60px;
-    background-color: $pixel-yellow;
+    background-color: $pixel-blue;
     border-radius: 25%;
 }
 
@@ -110,7 +109,7 @@
 // .work-block img {
 //     width: 20vw;
 //     object-fit: cover;
-//     border-bottom: $pixel-yellow 10px solid;
+//     border-bottom: $pixel-blue 10px solid;
 //     border-radius: 8px 8px 0px 0px;
 // }
 
@@ -119,7 +118,7 @@
 }
 
 .home-work {
-    background-color: $pixel-black;
+    background-color: $pixel-darkBlue;
 }
 
 .portfolio-work {

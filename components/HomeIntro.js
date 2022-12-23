@@ -7,14 +7,14 @@ import Image from 'next/image';
 
 function HomeIntro() {
     return (
-        <section className="black-section-line">
+        <section className="blue-section-line">
             <div className="container">
                 <div className="row">
                     {/* <div className="column"> */}
                     {/* <h2 className="big-h2">THINK<br /><span className="yellow">BIGGER.</span></h2> */}
                     {/* <p className="large-text">a Web Design Company in South Africa</p> */}
                     <br />
-                    <p className="home-intro-text">Pixel By Pixel is a website design company, based in sunny South Africa, focused on growing companies online. We do this with our <span className="yellow-span">*almost*</span> decade's worth of digital marketing experience, powered by the latest technology such as AI and large amounts of strong coffee.</p>
+                    <p className="home-intro-text">Pixel By Pixel is a website design company, based in sunny South Africa, focused on growing businesses online. We accomplish this with our <span className="yellow-span">*almost*</span> decade's worth of digital marketing experience, powered by the latest technology such as AI and large amounts of strong coffee.</p>
                     {/* </div> */}
                     {/* <div className="column">
                         <Image

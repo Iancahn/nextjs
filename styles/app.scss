@@ -5,10 +5,7 @@ $font-stack: "proxima-nova", sans-serif;
 $font-stack-bold: "proxima-nova", sans-serif;
 // 700 and italic
 $pixel-blue: #034ff3;
-$pixel-blueAccent: #1212FF;
-$pixel-darkBlue: #07112a;
-$pixel-yellow: #bfff00;
-$pixel-black: #0c0c0c;
+$pixel-darkBlue: #06223d;
 $pixel-white: #fff;
 $pixel-offwhite: #ECECEC;
 
@@ -38,7 +35,7 @@ $pixel-offwhite: #ECECEC;
 body {
     background-color: $pixel-white;
     font: 100% $font-stack;
-    color: $pixel-black;
+    color: $pixel-darkBlue;
 }
 
 section {
@@ -46,25 +43,26 @@ section {
 }
 
 .gray-section {
-    background-color: $pixel-black;
+    background-color: $pixel-darkBlue;
     color: $pixel-white;
     padding-bottom: 9em;
 }
 
 .gray-section-line {
     background-color: $pixel-white;
-    color: $pixel-black;
+    color: $pixel-darkBlue;
 }
 
-.black-section {
-    background-color: $pixel-black;
+.blue-section {
+    background-color: $pixel-darkBlue;
     color: $pixel-white;
 }
 
-.black-section-line {
-    border-top: 5px $pixel-yellow solid;
-    background-color: $pixel-black;
+.blue-section-line {
+    border-top: 10px $pixel-white solid;
+    background-color: $pixel-darkBlue;
     color: $pixel-white;
+    padding: 12em 0em;
 }
 
 // section-title-yellow
@@ -76,9 +74,9 @@ section {
     margin-bottom: 1em;
 }
 
-.yellow-span {
-    color: $pixel-yellow;
-}
+// .yellow-span {
+//     color: $pixel-blue;
+// }
 
 .section-title-yellow span {
     display: inline-block;
@@ -87,7 +85,7 @@ section {
 }
 
 h3.section-title-yellow span:after {
-    background: $pixel-yellow;
+    background: $pixel-blue;
     content: '';
     display: block;
     height: 12px;
@@ -127,8 +125,8 @@ h3.section-title-white span:after {
 
 // Color Styling
 
-.yellow {
-    color: $pixel-yellow;
+.blue-dot {
+    color: $pixel-blue;
 }
 
 .blue {
@@ -136,7 +134,7 @@ h3.section-title-white span:after {
 }
 
 .call-to-action {
-    background-color: $pixel-black;
+    background-color: $pixel-darkBlue;
     padding: 6em;
     display: flex;
     align-items: center;
@@ -146,7 +144,7 @@ h3.section-title-white span:after {
 }
 
 .container {
-    max-width: 70vw;
+    max-width: 75vw;
     margin: auto;
 }
 
@@ -177,7 +175,6 @@ h3.section-title-white span:after {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-    padding: 6em 0em;
 }
 
 .portfolio-padding {
@@ -298,8 +295,8 @@ h3.section-title-white span:after {
 
 footer {
     color: $pixel-white;
-    background-color: $pixel-black;
-    border-top: 15px solid $pixel-yellow;
+    background-color: $pixel-darkBlue;
+    border-top: 15px solid $pixel-blue;
 }
 
 .footer-links {
@@ -330,7 +327,7 @@ footer {
 }
 
 .blackbox {
-    background-color: $pixel-black;
+    background-color: $pixel-darkBlue;
     margin-top: -20vh;
     width: 30vw;
     height: 45vh;
@@ -377,7 +374,7 @@ footer h4 {
 
 .footer-btn {
     color: $pixel-white;
-    background-color: $pixel-black;
+    background-color: $pixel-darkBlue;
     border: 1px solid $pixel-white;
     padding: 0.8em 1.6em;
     font-size: 1rem;
@@ -395,7 +392,7 @@ footer h4 {
 }
 
 .black-line {
-    background: $pixel-black;
+    background: $pixel-darkBlue;
     text-align: center;
     padding: 3em 0;
 
