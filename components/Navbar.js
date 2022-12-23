@@ -12,9 +12,9 @@ function Navbar() {
             {/* Add lottie animation logo at later stage */}
             <Link className="nav-link" href="/">
                 <Image
-                    src="/assets/PBP-2022-Logo-white.png"
-                    height={100}
-                    width={429}
+                    src="/assets/PixelByPixel-web-white-logo.png"
+                    height={70}
+                    width={394}
                     alt="The main PixelByPixel logo"
                     className="main-logo"
                 />
