@@ -6,7 +6,7 @@ import Image from 'next/image';
 // import components
 
 // import images
-import ex10dor from '../public/assets/ex10dor-logo.png';
+import ex10dor from '../public/assets/new-era-health-logo.png';
 import galaxydoors from '../public/assets/galaxydoors-logo.png';
 import greenco from '../public/assets/greenco-energy-logo.png';
 import property from '../public/assets/property-connect-logo.png';
