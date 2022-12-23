@@ -13,7 +13,7 @@ function ContactUs() {
         <div>
             <div className="contact-us-header">
                 <div className="container2">
-                    <ServiceHeader title="This is the Contact Us that should be a bit longer" type="THIS IS ALLCAPS" />
+                    <ServiceHeader title="Ready to start your brand new project?" type="CONTACT US TODAY" />
                 </div>
             </div>
             <section>

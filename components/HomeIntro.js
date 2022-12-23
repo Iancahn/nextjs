@@ -5,28 +5,25 @@ import Image from 'next/image';
 // import { motion } from "framer-motion";
 // import components
 
-// import images
-import homeIntro from '../public/assets/pixelbypixel-intro.jpg';
-
 function HomeIntro() {
     return (
-        <section className="gray-section-line">
+        <section className="black-section-line">
             <div className="container">
                 <div className="row">
-                    <div className="column">
-                        <h2 className="big-h2">THINK<br /><span className="yellow">BIG.</span></h2>
-                        <p className="large-text">Web Design Company in Polokwane</p>
-                        <br />
-                        <p>At Pixel By Pixel, our team of website developers and digital marketers bring the skills above and beyond the ordinary to every project. Our web design and development team is involved in professional Business-to-Business and Business-To-Client web design and development.</p>
-                    </div>
-                    <div className="column">
+                    {/* <div className="column"> */}
+                    {/* <h2 className="big-h2">THINK<br /><span className="yellow">BIGGER.</span></h2> */}
+                    {/* <p className="large-text">a Web Design Company in South Africa</p> */}
+                    <br />
+                    <p className="home-intro-text">Pixel By Pixel is a website design company, based in sunny South Africa, focused on growing companies online. We do this with our <span className="yellow-span">*almost*</span> decade's worth of digital marketing experience, powered by the latest technology such as AI and large amounts of strong coffee.</p>
+                    {/* </div> */}
+                    {/* <div className="column">
                         <Image
                             src={homeIntro}
                             width={600}
                             height={441}
                             alt="Website design services to help you grow online."
                             className="column-img" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

@@ -1,12 +1,8 @@
 .home-hero {
     height: 100vh;
     width: 100%;
-}
-
-video {
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
+    background-image: url("../public/assets/pixelbypixel-homepage-hero.jpg");
+    background-attachment: fixed;
 }
 
 .home-hero:before {
@@ -40,7 +36,7 @@ video {
 }
 
 .home-intro {
-    background-color: $pixel-black;
+    background-color: $pixel-white;
 }
 
 .home-container {
@@ -50,9 +46,9 @@ video {
     flex-direction: column;
 }
 
-#home-intro-text {
-    font-size: 1.5rem;
-    line-height: 2rem;
+.home-intro-text {
+    font-size: 2.2rem;
+    line-height: 3rem;
     font-weight: 400;
     text-align: center;
     max-width: 52vw;
@@ -164,11 +160,4 @@ video {
 .small-project-text {
     padding-top: 2px;
     font-size: 1rem;
-}
-
-.column-video {
-    width: 98%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 5px;
 }

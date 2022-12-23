@@ -1,8 +1,6 @@
-// import Animation
-// import { motion } from "framer-motion";
-// import components
+import Image from 'next/image';
 
-// import aboutus from '../public/assets/coffee.mp4';
+import AboutUs from '../public/assets/about-our-team.jpg';
 
 function HomeAbout() {
     return (
@@ -12,7 +10,7 @@ function HomeAbout() {
                 <p className="centered2" >Learn more about the team behind our success.</p>
                 <div className="row">
                     <div className="column">
-                        {/* <video src={aboutus} alt="about the PixelByPixel team" className="column-video" autoPlay loop muted /> */}
+                        <Image src={AboutUs} />
                     </div>
                     <div className="column">
                         <p>Since we first started designing websites way back in early 2014,

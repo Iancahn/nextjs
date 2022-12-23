@@ -4,14 +4,13 @@ $font-stack: "proxima-nova", sans-serif;
 // 400 and italic
 $font-stack-bold: "proxima-nova", sans-serif;
 // 700 and italic
-$pixel-blue: #014ce6;
+$pixel-blue: #034ff3;
 $pixel-blueAccent: #1212FF;
-$pixel-darkBlue: #00143d;
-$pixel-yellow: #fde50b;
-$pixel-black: #0a0a0a;
+$pixel-darkBlue: #07112a;
+$pixel-yellow: #bfff00;
+$pixel-black: #0c0c0c;
 $pixel-white: #fff;
 $pixel-offwhite: #ECECEC;
-$pixel-gray: #0c0c0c;
 
 
 @import "./navbar";
@@ -47,14 +46,24 @@ section {
 }
 
 .gray-section {
-    background-color: $pixel-gray;
+    background-color: $pixel-black;
     color: $pixel-white;
     padding-bottom: 9em;
 }
 
 .gray-section-line {
-    border-top: 5px solid $pixel-yellow;
-    background-color: $pixel-gray;
+    background-color: $pixel-white;
+    color: $pixel-black;
+}
+
+.black-section {
+    background-color: $pixel-black;
+    color: $pixel-white;
+}
+
+.black-section-line {
+    border-top: 5px $pixel-yellow solid;
+    background-color: $pixel-black;
     color: $pixel-white;
 }
 
@@ -65,6 +74,10 @@ section {
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 1em;
+}
+
+.yellow-span {
+    color: $pixel-yellow;
 }
 
 .section-title-yellow span {
@@ -164,6 +177,7 @@ h3.section-title-white span:after {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
+    padding: 6em 0em;
 }
 
 .portfolio-padding {
