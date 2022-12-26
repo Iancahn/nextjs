@@ -1,5 +1,3 @@
-import { image } from "next/image";
-
 function HomeHero() {
     return (
         <div className="home-hero">

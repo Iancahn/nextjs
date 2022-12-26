@@ -53,6 +53,12 @@
     text-align: center;
 }
 
+.section-title {
+    font-size: 3.125rem;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
 .intro-button {
     margin-top: 2em;
     padding: 1.5em 3em;
@@ -69,7 +75,7 @@
 }
 
 .home-services {
-    background-color: $pixel-offwhite;
+    background-color: $pixel-white;
     padding-bottom: 6em;
 }
 
@@ -77,15 +83,20 @@
     display: flex;
     padding-top: 1em;
     justify-content: center;
+    column-gap: 2.4vw;
+}
+
+.our-services-images {
+    border-radius: 25px;
 }
 
 .work-block {
     display: block;
-    width: 20vw;
+    width: 25vw;
     background-color: $pixel-white;
-    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 21%);
-    margin: 1.1em;
-    padding: 3em 0 4em 0;
+    // box-shadow: 0 2px 28px 0 rgb(0 0 0 / 21%);
+    // margin: 1.1em;
+    padding: 0 0 4em 0;
 }
 
 .service-icon {

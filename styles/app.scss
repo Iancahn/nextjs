@@ -5,7 +5,10 @@ $font-stack: "proxima-nova", sans-serif;
 $font-stack-bold: "proxima-nova", sans-serif;
 // 700 and italic
 $pixel-blue: #034ff3;
-$pixel-darkBlue: #06223d;
+$pixel-darkBlue: #01133D;
+$pixel-yellow: #ffd401;
+$pixel-black: #030303;
+$pixel-offBlack: #1a1a1a;
 $pixel-gray: #7b8b9b;
 $pixel-white: #fff;
 $pixel-offwhite: #ECECEC;
@@ -64,64 +67,6 @@ section {
     background-color: $pixel-darkBlue;
     color: $pixel-white;
     padding: 12em 0em;
-}
-
-// section-title-yellow
-
-.section-title-yellow {
-    text-align: center;
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-bottom: 1em;
-}
-
-// .yellow-span {
-//     color: $pixel-blue;
-// }
-
-.section-title-yellow span {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-}
-
-h3.section-title-yellow span:after {
-    background: $pixel-blue;
-    content: '';
-    display: block;
-    height: 12px;
-    position: absolute;
-    top: 30px;
-    left: -5px;
-    right: -5px;
-    z-index: -1;
-}
-
-// section-title-white
-
-.section-title-white {
-    text-align: center;
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-bottom: 1em;
-}
-
-.section-title-white span {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-}
-
-h3.section-title-white span:after {
-    background: rgba(255, 255, 255, 0.3);
-    content: '';
-    display: block;
-    height: 12px;
-    position: absolute;
-    top: 30px;
-    left: -5px;
-    right: -5px;
-    z-index: -1;
 }
 
 // Color Styling
