@@ -104,8 +104,8 @@
 
 .slide-track {
     display: flex;
-    width: calc(250px * 10);
-    animation: scroll 25s linear infinite;
+    width: calc(500px * 10);
+    animation: scroll 40s linear infinite;
 }
 
 .slide-track:hover {
@@ -113,11 +113,11 @@
 }
 
 .slide {
-    height: 200px;
-    width: 250px;
+    height: 400px;
+    width: 500px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 1.5em;
     perspective: 100px;
 }
 
@@ -134,30 +134,30 @@
 
 //slide shadows
 
-.slider::before,
-.slider::after {
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%,
-            rgba(255, 255, 255, 0)100%);
-    content: "";
-    height: 100%;
-    position: absolute;
-    width: 15%;
-    z-index: 2;
-}
+// .slider::before,
+// .slider::after {
+//     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%,
+//             rgba(255, 255, 255, 0)100%);
+//     content: "";
+//     height: 100%;
+//     position: absolute;
+//     width: 1%;
+//     z-index: 2;
+// }
 
-.slider::before {
-    left: 0;
-    top: 0;
-}
+// .slider::before {
+//     left: 0;
+//     top: 0;
+// }
 
-.slider::after {
-    right: 0;
-    top: 0;
-    transform: rotatz(180deg);
-}
+// .slider::after {
+//     right: 0;
+//     top: 0;
+//     transform: rotatz(180deg);
+// }
 
 img:hover {
-    transform: translateZ(20px);
+    transform: translateZ(15px);
 }
 
 
@@ -168,7 +168,7 @@ img:hover {
     }
 
     100% {
-        transform: translateX(calc(-250px * 5));
+        transform: translateX(calc(-500px * 5));
     }
 }
 

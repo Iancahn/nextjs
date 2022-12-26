@@ -8,7 +8,7 @@ import WorkProject from './WorkProject';
 // import components
 
 // import images
-import fresca from '../public/assets/fresca-farms.jpg';
+import newEraHealth from '../public/assets/new-era-health-portfolio.jpg';
 import steakshop from '../public/assets/steakshop-butchery.jpg';
 import jaco from '../public/assets/jaco-design.jpg';
 import huweliksfokus from '../public/assets/huweliksfokus-consulting.jpg';
@@ -140,10 +140,10 @@ function HomeServices() {
                     <div className="slide">
                         <Image
                             className="slider-image"
-                            src={fresca}
+                            src={newEraHealth}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -151,8 +151,8 @@ function HomeServices() {
                             className="slider-image"
                             src={steakshop}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -160,8 +160,8 @@ function HomeServices() {
                             className="slider-image"
                             src={jaco}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -169,8 +169,8 @@ function HomeServices() {
                             className="slider-image"
                             src={huweliksfokus}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -178,8 +178,8 @@ function HomeServices() {
                             className="slider-image"
                             src={cycad}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
 
@@ -188,10 +188,10 @@ function HomeServices() {
                     <div className="slide">
                         <Image
                             className="slider-image"
-                            src={fresca}
+                            src={newEraHealth}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -199,8 +199,8 @@ function HomeServices() {
                             className="slider-image"
                             src={steakshop}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -208,8 +208,8 @@ function HomeServices() {
                             className="slider-image"
                             src={jaco}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -217,8 +217,8 @@ function HomeServices() {
                             className="slider-image"
                             src={huweliksfokus}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
                     <div className="slide">
@@ -226,8 +226,8 @@ function HomeServices() {
                             className="slider-image"
                             src={cycad}
                             alt=""
-                            width={250}
-                            height={200}
+                            width={500}
+                            height={400}
                         />
                     </div>
 
