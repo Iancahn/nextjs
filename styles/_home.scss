@@ -88,6 +88,7 @@
 
 .our-services-images {
     border-radius: 25px;
+    object-fit: cover;
 }
 
 .work-block {
@@ -99,33 +100,32 @@
     padding: 0 0 4em 0;
 }
 
-.service-icon {
-    text-align: center;
-    margin: 3em 2em 0em 2em;
-    padding: 15px;
-    width: 60px;
-    height: 60px;
-    background-color: $pixel-blue;
-    border-radius: 25%;
-}
+// .service-icon {
+//     text-align: center;
+//     margin: 3em 2em 0em 2em;
+//     padding: 15px;
+//     width: 60px;
+//     height: 60px;
+//     background-color: $pixel-blue;
+//     border-radius: 25%;
+// }
 
-.icon-circle {
-    background-color: green;
-    border-radius: 100%;
-    margin: 3em 2em 0em 2em;
-    width: 100px;
-    height: 100px;
-}
-
-// .work-block img {
-//     width: 20vw;
-//     object-fit: cover;
-//     border-bottom: $pixel-blue 10px solid;
-//     border-radius: 8px 8px 0px 0px;
+// .icon-circle {
+//     background-color: green;
+//     border-radius: 100%;
+//     margin: 3em 2em 0em 2em;
+//     width: 100px;
+//     height: 100px;
 // }
 
 .work-block-text {
-    padding: 1.5em 2em 2em 2em;
+    padding: 2.5em 0 2em 0;
+}
+
+.service-item-list {
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
 }
 
 .home-work {
