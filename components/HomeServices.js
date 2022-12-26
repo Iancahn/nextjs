@@ -13,7 +13,7 @@ import socialMediaServices from '../public/assets/social-media-marketing-service
 
 function HomeServices() {
     return (
-        <section className="home-services">
+        <section className="white-section">
             <div className="container">
                 <h3 className="section-title black-font"><span>Our Services</span></h3>
                 <div className="work-container">
@@ -119,7 +119,7 @@ function HomeServices() {
                         />
                         <div className="work-block-text">
                             <h4 className="service-name">Search Engine Optimization</h4>
-                            <p>Every great company starts with a brilliant brand design. A professional brand design works across all the touchpoints of your brand. These include logo design, branding elements and so much more.</p>
+                            <p>Search Engine Optimization(SEO for short) is the technical jargon for saying we can help your website rank better on search engines like Google and Bing. Higher rankings leads to more online visitors, thus leading to more potential customers.</p>
                             <p className="service-item-list">
                                 <ul>
                                     <li>Website Optimization</li>
@@ -149,7 +149,7 @@ function HomeServices() {
                         />
                         <div className="work-block-text">
                             <h4 className="service-name">Paid Ads Marketing</h4>
-                            <p>Your company's website is the very first impression potential clients get of your company. Get your website professionally designed using the latest web technologies and mobile friendly and responsive design styles.</p>
+                            <p>Think of a well created Pay Per Click Ad Campaign as the turbo charge button for generating more leads online. Get your company infront of audiences actively looking your products or services with this intent model marketing strategy.</p>
                             <p className="service-item-list">
                                 <ul>
                                     <li>Google Search Ads</li>
@@ -179,7 +179,7 @@ function HomeServices() {
                         />
                         <div className="work-block-text">
                             <h4 className="service-name">Social Media Marketing</h4>
-                            <p>Once your new brand and website has been designed, its time to get it infront of potential customers. We use our wide range of digital marketing to generate leads and convert online visitors into customers for our clients.</p>
+                            <p>Connect and engage with your loyal followers on their favourite social media platforms such as Facebook, Instagram and TikTok. These social media platforms are ideal for generating brand awareness and product interest.</p>
                             <p className="service-item-list">
                                 <ul>
                                     <li>Facebook Marketing</li>

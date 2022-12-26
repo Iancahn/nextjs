@@ -6,7 +6,7 @@ import Image from 'next/image';
 // import components
 
 // import images
-import ex10dor from '../public/assets/new-era-health-logo.png';
+import newera from '../public/assets/new-era-health-logo.png';
 import galaxydoors from '../public/assets/galaxydoors-logo.png';
 import greenco from '../public/assets/greenco-energy-logo.png';
 import property from '../public/assets/property-connect-logo.png';
@@ -22,18 +22,18 @@ import wildjasmine from '../public/assets/wild-jasmine-logo.png';
 
 function HomeClients() {
     return (
-        <section className="gray-section">
+        <section className="blue-section">
             <div className="container">
                 <div className="row">
                     <div className="centered">
-                        <h3 className="section-title-white"><span>Some of our Clients</span></h3>
+                        <h3 className="section-title white-font"><span>Some of our clients</span></h3>
                     </div>
                 </div>
                 <div className="row">
                     <div className="portfolio-padding">
                         <div className="column-six">
                             <Image
-                                src={ex10dor}
+                                src={newera}
                                 width={175}
                                 height={87}
                                 alt="companies we have worked with"
