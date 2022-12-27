@@ -9,11 +9,10 @@ import WorkProject from './WorkProject';
 
 // import images
 import newEraHealth from '../public/assets/new-era-health-portfolio.jpg';
-import steakshop from '../public/assets/steakshop-butchery.jpg';
-import jaco from '../public/assets/jaco-design.jpg';
-import huweliksfokus from '../public/assets/huweliksfokus-consulting.jpg';
-import cycad from '../public/assets/cycad-estate.jpg';
-
+import greenCo from '../public/assets/greenco-portfolio.jpg';
+import steakshop from '../public/assets/steakshop-portfolio.jpg';
+import fresca from '../public/assets/fresca-farm-portfolio.jpg';
+import cycad from '../public/assets/cycad-estate-portfolio.jpg';
 
 function HomeServices() {
     return (
@@ -144,7 +143,25 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <div className="project-inbox">
-                                <h3>Hello Testing4</h3>
+                                <p className="project-inbox-header">New Era Health Hospital</p>
+                                <p class="project-inbox-text">Redesigned their website to reflect their new brand.</p>
+                                <p className="project-inbox-tech">Wordpress Elementor Website Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="slide">
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${greenCo.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <p className="project-inbox-header">GreenCo Solar</p>
+                                <p class="project-inbox-text">Redesigned their old website to reflect their new brand.</p>
+                                <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>
                     </div>
@@ -158,35 +175,25 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
+                                <p className="project-inbox-header">Steakshop Butchery</p>
+                                <p class="project-inbox-text">Built an E-Commerce Website to generate sales online.</p>
+                                <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>
                     </div>
                     <div className="slide">
                         <div className="project-outbox"
                             style={{
-                                backgroundImage: `url(${jaco.src})`,
+                                backgroundImage: `url(${fresca.src})`,
                                 height: '400px',
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat',
                                 backgroundPosition: 'center',
                             }}>
                             <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="slide">
-                        <div className="project-outbox"
-                            style={{
-                                backgroundImage: `url(${huweliksfokus.src})`,
-                                height: '400px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
+                                <p className="project-inbox-header">Fresca Farms</p>
+                                <p class="project-inbox-text">Built and exciting new brand identity with package design.</p>
+                                <p className="project-inbox-tech">Brand & Graphic Design</p>
                             </div>
                         </div>
                     </div>
@@ -200,7 +207,9 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
+                                <p className="project-inbox-header">Cycad Estate Polokwane</p>
+                                <p class="project-inbox-text">Built a new member-only website for Cycad Estate</p>
+                                <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>
                     </div>
@@ -217,7 +226,25 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
+                                <p className="project-inbox-header">New Era Health Hospital</p>
+                                <p class="project-inbox-text">Redesigned their website to reflect their new brand.</p>
+                                <p className="project-inbox-tech">Wordpress Elementor Website Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="slide">
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${greenCo.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <p className="project-inbox-header">GreenCo Solar</p>
+                                <p class="project-inbox-text">Redesigned their old website to reflect their new brand.</p>
+                                <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>
                     </div>
@@ -231,14 +258,16 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
+                                <p className="project-inbox-header">Steakshop Butchery</p>
+                                <p class="project-inbox-text">Built an E-Commerce Website Design to generate sales online.</p>
+                                <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>
                     </div>
                     <div className="slide">
                         <div className="project-outbox"
                             style={{
-                                backgroundImage: `url(${newEraHealth.src})`,
+                                backgroundImage: `url(${fresca.src})`,
                                 height: '400px',
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat',
@@ -246,20 +275,8 @@ function HomeServices() {
                             }}>
                             <div className="project-inbox">
                                 <h3>Hello Testing2</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="slide">
-                        <div className="project-outbox"
-                            style={{
-                                backgroundImage: `url(${huweliksfokus.src})`,
-                                height: '400px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
+                                <h5>Redesigned their old website to reflect their new brand.</h5>
+                                <p className="project-inbox-text">Wordpress Elementor Website Design</p>
                             </div>
                         </div>
                     </div>
@@ -273,7 +290,9 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }} >
                             <div className="project-inbox">
-                                <h3>Hello Testing2</h3>
+                                <p className="project-inbox-header">Cycad Estate Polokwane</p>
+                                <p class="project-inbox-text">Built a new member-only website for Cycad Estate</p>
+                                <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>
                     </div>
