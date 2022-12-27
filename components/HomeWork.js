@@ -135,7 +135,7 @@ function HomeServices() {
             <div className="slider">
                 <div className="slide-track">
                     <div className="slide">
-                        <div className="slide-test"
+                        <div className="project-outbox"
                             style={{
                                 backgroundImage: `url(${newEraHealth.src})`,
                                 height: '400px',
@@ -143,57 +143,72 @@ function HomeServices() {
                                 backgroundRepeat: 'no-repeat',
                                 backgroundPosition: 'center',
                             }}>
-                            {/* <Image
-                                className="slider-image"
-                                src={newEraHealth}
-                                alt=""
-                                width={500}
-                                height={400}
-                            /> */}
-                            <div className="hover-box"><h3>Hello Testing</h3></div>
+                            <div className="project-inbox">
+                                <h3>Hello Testing4</h3>
+                            </div>
                         </div>
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={steakshop}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${steakshop.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={jaco}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${jaco.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={huweliksfokus}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${huweliksfokus.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={cycad}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${cycad.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
 
                     {/* same slides (doubled) */}
 
                     <div className="slide">
-                        <div className="slide-test"
+                        <div className="project-outbox"
                             style={{
                                 backgroundImage: `url(${newEraHealth.src})`,
                                 height: '400px',
@@ -201,69 +216,72 @@ function HomeServices() {
                                 backgroundRepeat: 'no-repeat',
                                 backgroundPosition: 'center',
                             }}>
-                            {/* <Image
-                                className="slider-image"
-                                src={newEraHealth}
-                                alt=""
-                                width={500}
-                                height={400}
-                            /> */}
-                            <div className="hover-box"><h3>Hello Testing</h3></div>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
                         </div>
-                        {/* <Image
-                            className="slider-image"
-                            src={newEraHealth}
-                            alt=""
-                            width={500}
-                            height={400}
-                        /> */}
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={steakshop}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${steakshop.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={jaco}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${newEraHealth.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={huweliksfokus}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${huweliksfokus.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={cycad}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="project-outbox"
+                            style={{
+                                backgroundImage: `url(${cycad.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }} >
+                            <div className="project-inbox">
+                                <h3>Hello Testing2</h3>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
-            </div>
-
-
-
-            {/* // end slider */}
+            </div >
 
         </div>
-
     )
 }
 
