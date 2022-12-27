@@ -13,9 +13,7 @@ import steakshop from '../public/assets/steakshop-butchery.jpg';
 import jaco from '../public/assets/jaco-design.jpg';
 import huweliksfokus from '../public/assets/huweliksfokus-consulting.jpg';
 import cycad from '../public/assets/cycad-estate.jpg';
-import nty from '../public/assets/nty-steel.jpg';
-//import FontAwesome
-// import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
+
 
 function HomeServices() {
     return (
@@ -134,17 +132,26 @@ function HomeServices() {
             </section>
 
             {/* test slider */}
-
             <div className="slider">
                 <div className="slide-track">
                     <div className="slide">
-                        <Image
-                            className="slider-image"
-                            src={newEraHealth}
-                            alt=""
-                            width={500}
-                            height={400}
-                        />
+                        <div className="slide-test"
+                            style={{
+                                backgroundImage: `url(${newEraHealth.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            {/* <Image
+                                className="slider-image"
+                                src={newEraHealth}
+                                alt=""
+                                width={500}
+                                height={400}
+                            /> */}
+                            <div className="hover-box"><h3>Hello Testing</h3></div>
+                        </div>
                     </div>
                     <div className="slide">
                         <Image
@@ -186,13 +193,30 @@ function HomeServices() {
                     {/* same slides (doubled) */}
 
                     <div className="slide">
-                        <Image
+                        <div className="slide-test"
+                            style={{
+                                backgroundImage: `url(${newEraHealth.src})`,
+                                height: '400px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            {/* <Image
+                                className="slider-image"
+                                src={newEraHealth}
+                                alt=""
+                                width={500}
+                                height={400}
+                            /> */}
+                            <div className="hover-box"><h3>Hello Testing</h3></div>
+                        </div>
+                        {/* <Image
                             className="slider-image"
                             src={newEraHealth}
                             alt=""
                             width={500}
                             height={400}
-                        />
+                        /> */}
                     </div>
                     <div className="slide">
                         <Image
@@ -233,6 +257,7 @@ function HomeServices() {
 
                 </div>
             </div>
+
 
 
             {/* // end slider */}

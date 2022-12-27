@@ -1,8 +1,7 @@
 import Image from 'next/image';
 
-import AboutUs from '../public/assets/about-our-team.jpg';
 
-function HomeAbout() {
+function HomeReviews() {
     return (
         <section className="white-section">
             <div className="container">
@@ -18,7 +17,7 @@ function HomeAbout() {
                         <p>From our humble beginnings, we have grown to become probably the number one website design agency in Limpopo, based on raw skill and our relentless unwillingness to accept mediocre as good enough.</p>
                     </div>
                     <div className="column">
-                        <Image src={AboutUs} />
+                        {/* <Image src={AboutUs} /> */}
                     </div>
                 </div>
             </div>
@@ -26,4 +25,4 @@ function HomeAbout() {
     )
 }
 
-export default HomeAbout;
+export default HomeReviews;

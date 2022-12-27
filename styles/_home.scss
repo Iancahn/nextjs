@@ -93,19 +93,37 @@
 // start slider styling
 
 .slider {
-    height: 250px;
+    height: 400px;
     margin: auto;
     position: relative;
-    width: 90%;
+    width: 100%;
     display: grid;
     place-items: center;
     cursor: pointer;
+    overflow: hidden;
 }
+
+
+.hover-box {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-box:hover {
+    opacity: 1;
+    background-color: pink;
+}
+
+// .slide-div {
+//     height: 800px;
+//     background-color: pink;
+// }
 
 .slide-track {
     display: flex;
     width: calc(500px * 10);
-    animation: scroll 40s linear infinite;
+    animation: scroll 35s linear infinite;
 }
 
 .slide-track:hover {
@@ -121,8 +139,11 @@
     perspective: 100px;
 }
 
+.slide-test {
+    width: 100%;
+}
+
 .slider-image {
-    background-color: pink;
     width: 100%;
     transition: transform 0.75s;
 }

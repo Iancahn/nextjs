@@ -12,7 +12,7 @@ $pixel-black: #030303;
 $pixel-offBlack: #1a1a1a;
 $pixel-gray: #7b8b9b;
 $pixel-white: #fff;
-$pixel-offwhite: #ECECEC;
+$pixel-offwhite: #F2F2F2;
 
 
 @import "./navbar";
@@ -49,7 +49,7 @@ section {
 .white-section {
     background-color: $pixel-white;
     color: $pixel-offBlack;
-    padding-bottom: 6em;
+    padding-bottom: 3em;
 }
 
 .white-section-line {

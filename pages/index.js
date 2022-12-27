@@ -11,7 +11,7 @@ import HomeIntro from '../components/HomeIntro';
 import HomeServices from '../components/HomeServices';
 import HomeClients from '../components/HomeClients';
 import HomeWork from '../components/HomeWork';
-import HomeAbout from '../components/HomeAbout';
+import HomeReviews from '../components/HomeReviews';
 import Calltoaction from '../components/Calltoaction';
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <HomeServices />
       <HomeClients />
       <HomeWork />
-      <HomeAbout />
+      <HomeReviews />
       <Calltoaction />
     </div>
   )
