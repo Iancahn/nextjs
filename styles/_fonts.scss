@@ -1,50 +1,54 @@
 // Font Styling Starts
 
 h1 {
-    font-size: 3.6rem;
+    font-size: 5.3rem;
     font-weight: 700;
     letter-spacing: 2px;
-    line-height: 4.5rem;
+    line-height: 6rem;
     font-weight: 700;
 }
 
 h2 {
     font-family: $font-stack;
-    line-height: 3.4rem;
+    line-height: 3.125rem;
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 0.4em;
 }
 
-.big-h2 {
-    font-size: 6rem;
-    line-height: 1;
-}
+// .big-h2 {
+//     font-size: 6rem;
+//     line-height: 1;
+// }
 
 h3 {
     font-family: $font-stack-bold;
-    font-size: 1.375rem;
-    margin-top: 14px;
+    font-size: 2rem;
+    margin-top: 1em;
 }
 
-.big-h3 {
-    font-family: $font-stack-bold;
-    font-size: 2rem;
-    margin-bottom: 0.5em;
-}
+// .big-h3 {
+//     font-family: $font-stack-bold;
+//     font-size: 2rem;
+//     margin-bottom: 0.5em;
+// }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .service-name {
-    font-size: 1.69rem;
+    font-size: 1.75rem;
     margin-bottom: 0.9em;
 }
 
-h5 {}
+h5 {
+    font-size: 1rem;
+}
 
-h6 {}
+h6 {
+    font-size: 0.8rem;
+}
 
 p {
     font-family: $font-stack;
@@ -65,6 +69,12 @@ p {
     font-size: 1.8rem;
     line-height: 2rem;
     font-weight: 700;
+}
+
+.section-title {
+    font-size: 3.125rem;
+    text-align: left;
+    margin-bottom: 1em;
 }
 
 
