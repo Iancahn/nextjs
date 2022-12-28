@@ -13,6 +13,7 @@ $pixel-offBlack: #1a1a1a;
 $pixel-gray: #7b8b9b;
 $pixel-white: #fff;
 $pixel-offwhite: #F2F2F2;
+$pixel-grayborder: rgba(0, 0, 0, 0.123);
 
 
 @import "./navbar";
@@ -53,6 +54,18 @@ body {
 }
 
 .white-section-line {
+    border-top: 10px $pixel-blue solid;
+    background-color: $pixel-white;
+    padding-bottom: 3em;
+}
+
+.gray-section {
+    background-color: $pixel-offwhite;
+    color: $pixel-offBlack;
+    padding: 4em 0;
+}
+
+.gray-section-line {
     border-top: 10px $pixel-blue solid;
     background-color: $pixel-white;
     padding-bottom: 3em;
@@ -290,13 +303,15 @@ body {
     flex-direction: column;
 }
 
+.column img {
+    // width: 100%;
+}
+
 .column-img {
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
-
-
 
 .latest-work {
     // opacity: 0;

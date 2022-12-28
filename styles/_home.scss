@@ -194,30 +194,11 @@
 
 // end slider styling
 
-
-.portfolio-work {
-    display: flex;
-}
-
-.portfolio-column {
-    padding-right: 3em;
-    max-width: 25vw;
-}
-
-.portfolio-column-div1>img,
-.portfolio-column-div2>img {
-    max-width: 22vw;
-}
-
-.rem-spacing {
-    margin-top: 4em;
-}
-
-.portfolio-column-div1,
-.portfolio-column-div2 {
-    margin-bottom: 4em;
-    color: white;
-    text-decoration: none;
+.customer-review-block {
+    background-color: $pixel-white;
+    padding: 2em;
+    border: 1px solid $pixel-grayborder;
+    border-radius: 15px;
 }
 
 .navlink {

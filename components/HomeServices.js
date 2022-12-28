@@ -119,7 +119,7 @@ function HomeServices() {
                         />
                         <div className="work-block-text">
                             <h4 className="service-name">Search Engine Optimization</h4>
-                            <p>Search Engine Optimization(SEO for short) is the technical jargon for saying we can help your website rank better on search engines like Google and Bing. Higher rankings leads to more online visitors, thus leading to more potential customers.</p>
+                            <p>Search Engine Optimization(SEO for short) is the technical jargon for saying we can help your website rank better on search engines like Google and Bing. Higher rankings leads to more online visitors and sales online.</p>
                             <p className="service-item-list">
                                 <ul>
                                     <li>Website Optimization</li>
@@ -149,7 +149,7 @@ function HomeServices() {
                         />
                         <div className="work-block-text">
                             <h4 className="service-name">Paid Ads Marketing</h4>
-                            <p>Think of a well created Pay Per Click Ad Campaign as the turbo charge button for generating more leads online. Get your company infront of audiences actively looking your products or services with this intent model marketing strategy.</p>
+                            <p>Think of Pay Per Click Marketing as the turbo button for generating more leads online. Get your company infront of audiences actively looking your products or services with this intent model marketing strategy.</p>
                             <p className="service-item-list">
                                 <ul>
                                     <li>Google Search Ads</li>
@@ -179,7 +179,7 @@ function HomeServices() {
                         />
                         <div className="work-block-text">
                             <h4 className="service-name">Social Media Marketing</h4>
-                            <p>Connect and engage with your loyal followers on their favourite social media platforms such as Facebook, Instagram and TikTok. These social media platforms are ideal for generating brand awareness and product interest.</p>
+                            <p>Connect and engage with your loyal followers on their favourite social media platforms such as Facebook and TikTok. These social media platforms are ideal for generating brand awareness and product interest.</p>
                             <p className="service-item-list">
                                 <ul>
                                     <li>Facebook Marketing</li>
