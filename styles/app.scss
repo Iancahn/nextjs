@@ -6,13 +6,14 @@ $font-stack-bold: "proxima-nova", sans-serif;
 // 700 and italic
 $pixel-blue: #034ff3;
 $pixel-blue-hover: #034ff3de;
+$pixel-blue-hover2: #0943c2;
 $pixel-darkBlue: #01133D;
 $pixel-yellow: #ffd401;
 $pixel-black: #030303;
 $pixel-offBlack: #1a1a1a;
 $pixel-gray: #7b8b9b;
 $pixel-white: #fff;
-$pixel-offwhite: #F2F2F2;
+$pixel-offwhite: #ececec;
 $pixel-grayborder: rgba(0, 0, 0, 0.123);
 
 
@@ -92,17 +93,18 @@ body {
     padding: 1.5em 3em;
     font-size: 1.2em;
     font-weight: 500;
-    background-color: transparent;
     border: 1px solid $pixel-white;
     transition: 0.3s;
     color: white;
     border-radius: 5px;
+    background-color: $pixel-blue;
+    cursor: pointer;
 }
 
 .call-to-action-button:hover {
-    background-color: $pixel-blue;
-    border: 1px solid $pixel-blue;
+    background-color: $pixel-blue-hover2;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 // .black-btn {
@@ -241,8 +243,10 @@ body {
 }
 
 .call-to-action {
-    background-color: $pixel-darkBlue;
-    padding: 6em;
+    background-color: $pixel-white;
+    padding-top: 6em;
+    padding-bottom: 0;
+    margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,12 +255,12 @@ body {
 }
 
 .container {
-    max-width: 75vw;
+    width: 75vw;
     margin: auto;
 }
 
 .container2 {
-    max-width: 64vw;
+    width: 64vw;
     margin: auto;
 }
 
@@ -290,7 +294,7 @@ body {
 
 .column {
     float: left;
-    flex: 50%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     padding: 1em 2em 1em 0em;
@@ -298,9 +302,14 @@ body {
 
 .column2 {
     float: left;
-    flex: 50%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
+}
+
+.column-no-padding {
+    max-width: 50%;
+    padding: 1em 2em 0em 0em;
 }
 
 .column img {
@@ -340,6 +349,19 @@ body {
     margin-bottom: 3em;
 }
 
+.centered3 {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+
+.centered4 {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -371,8 +393,7 @@ body {
 
 footer {
     color: $pixel-white;
-    background-color: $pixel-darkBlue;
-    border-top: 15px solid $pixel-blue;
+    background-color: $pixel-black;
 }
 
 .footer-links {
