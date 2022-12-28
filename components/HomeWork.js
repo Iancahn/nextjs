@@ -53,7 +53,7 @@ function HomeServices() {
                             }}>
                             <div className="project-inbox">
                                 <p className="project-inbox-header">GreenCo Solar</p>
-                                <p class="project-inbox-text">Redesigned their old website to reflect their new brand.</p>
+                                <p class="project-inbox-text">Redesigned their website to reflect their new brand.</p>
                                 <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>
@@ -136,7 +136,7 @@ function HomeServices() {
                             }}>
                             <div className="project-inbox">
                                 <p className="project-inbox-header">GreenCo Solar</p>
-                                <p class="project-inbox-text">Redesigned their old website to reflect their new brand.</p>
+                                <p class="project-inbox-text">Redesigned their website to reflect their new brand.</p>
                                 <p className="project-inbox-tech">Wordpress Oxygen3 Website Design</p>
                             </div>
                         </div>

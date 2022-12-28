@@ -268,28 +268,20 @@ body {
     max-width: 100vw;
     margin: auto;
     padding: 8em;
+
 }
 
-.grid-out-container {
-    margin: auto;
-    width: 60%;
-}
-
-.grid-container {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px 20px;
+.footer-container-content {
+    width: 75vw;
+    // margin: auto;
+    display: table;
+    // vertical-align: baseline;
 }
 
 .row {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-}
-
-.portfolio-padding {
-    margin-top: 1em;
 }
 
 .column {
@@ -463,29 +455,29 @@ footer a {
 .copyright {
     margin-top: 1em;
     font-size: 1rem;
+    color: $pixel-gray;
 }
 
 footer h4 {
     font-size: 1.2rem;
 }
 
-.footer-btn {
-    color: $pixel-white;
-    background-color: $pixel-darkBlue;
-    border: 1px solid $pixel-white;
-    padding: 0.8em 1.6em;
-    font-size: 1rem;
-    font-weight: bolder;
-    transition: 0.25s ease-in-out;
+.footer-headers {
+    color: $pixel-gray;
+    text-decoration: underline;
 }
 
-.footer-btn:hover {
-    background-color: $pixel-white;
-    color: $pixel-darkBlue;
+.footer-promo-text {
+    font-size: 1rem;
 }
 
 .footer-up {
     float: right;
+}
+
+.footer-line {
+    background-color: $pixel-blue-hover2;
+    padding: 0.5em 0;
 }
 
 .black-line {
