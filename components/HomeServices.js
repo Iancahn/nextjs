@@ -28,13 +28,13 @@ function HomeServices() {
                         <div className="work-block-text">
                             <h4 className="service-name">Brand Design</h4>
                             <p>Every great company starts with a brilliant brand design. A professional brand design works across all the touchpoints of your brand. These include logo design, branding elements and so much more.</p>
-                            <p className="service-item-list">
+                            <div className="service-item-list">
                                 <ul>
                                     <li>Logo Design</li>
                                     <li>Graphic Design</li>
                                     <li>Brand Development</li>
                                 </ul>
-                            </p>
+                            </div>
                             <div className="service-links">
                                 <button className="service-plans-button">See Plans</button>
                                 <Image
@@ -58,13 +58,13 @@ function HomeServices() {
                         <div className="work-block-text">
                             <h4 className="service-name">Website Development</h4>
                             <p>Your company's website is the very first impression potential clients get of your company. Get your website professionally designed using the latest web technologies and mobile friendly and responsive design styles.</p>
-                            <p className="service-item-list">
+                            <div className="service-item-list">
                                 <ul>
                                     <li>Wordpress Websites</li>
                                     <li>E-Commerce Websites</li>
                                     <li>Custom Websites</li>
                                 </ul>
-                            </p>
+                            </div>
                             <div className="service-links">
                                 <button className="service-plans-button">See Plans</button>
                                 <Image
@@ -88,13 +88,13 @@ function HomeServices() {
                         <div className="work-block-text">
                             <h4 className="service-name">Digital Marketing</h4>
                             <p>Once your new brand and website has been designed, its time to get it infront of potential customers. We use our wide range of digital marketing to generate leads and convert online visitors into customers for our clients.</p>
-                            <p className="service-item-list">
+                            <div className="service-item-list">
                                 <ul>
                                     <li>Conversion Rate Optimization</li>
                                     <li>Email Marketing</li>
                                     <li>Content Blogging</li>
                                 </ul>
-                            </p>
+                            </div>
                             <div className="service-links">
                                 <button className="service-plans-button">See Plans</button>
                                 <Image
@@ -120,13 +120,13 @@ function HomeServices() {
                         <div className="work-block-text">
                             <h4 className="service-name">Search Engine Optimization</h4>
                             <p>Search Engine Optimization(SEO for short) is the technical jargon for saying we can help your website rank better on search engines like Google and Bing. Higher rankings leads to more online visitors and sales online.</p>
-                            <p className="service-item-list">
+                            <div className="service-item-list">
                                 <ul>
                                     <li>Website Optimization</li>
                                     <li>Local Search Optimization</li>
                                     <li>Google My Business Optimization</li>
                                 </ul>
-                            </p>
+                            </div>
                             <div className="service-links">
                                 <button className="service-plans-button">See Plans</button>
                                 <Image
@@ -150,13 +150,13 @@ function HomeServices() {
                         <div className="work-block-text">
                             <h4 className="service-name">Paid Ads Marketing</h4>
                             <p>Think of Pay Per Click Marketing as the turbo button for generating more leads online. Get your company infront of audiences actively looking your products or services with this intent model marketing strategy.</p>
-                            <p className="service-item-list">
+                            <div className="service-item-list">
                                 <ul>
                                     <li>Google Search Ads</li>
                                     <li>Google Display Ads</li>
                                     <li>Google Local Ads</li>
                                 </ul>
-                            </p>
+                            </div>
                             <div className="service-links">
                                 <button className="service-plans-button">See Plans</button>
                                 <Image
@@ -180,13 +180,13 @@ function HomeServices() {
                         <div className="work-block-text">
                             <h4 className="service-name">Social Media Marketing</h4>
                             <p>Connect and engage with your loyal followers on their favourite social media platforms such as Facebook and TikTok. These social media platforms are ideal for generating brand awareness and product interest.</p>
-                            <p className="service-item-list">
+                            <div className="service-item-list">
                                 <ul>
                                     <li>Facebook Marketing</li>
                                     <li>Instagram Marketing</li>
                                     <li>TikTok Marketing</li>
                                 </ul>
-                            </p>
+                            </div>
                             <div className="service-links">
                                 <button className="service-plans-button">See Plans</button>
                                 <Image
