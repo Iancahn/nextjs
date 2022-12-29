@@ -15,16 +15,7 @@ function Footer() {
         <footer>
             <div className="footer-container">
                 <div className="footer-container-content">
-                    <div className='row'>
-                        <div className="column-four quick-links">
-                            <div>
-                                <h4 className="footer-headers">Quick Links</h4>
-                                <li><Link className="footer-links" href="/">Home</Link></li>
-                                <li><Link className="footer-links" href="/AboutUs">About Us</Link></li>
-                                <li><Link className="footer-links" href="/ContactUs">Our News</Link></li>
-                                <li><Link className="footer-links" href="/ContactUs">Contact Us</Link></li>
-                            </div>
-                        </div>
+                    <div className='footer-row'>
                         <div className="column-four quick-links">
                             <div>
                                 <h4 className="footer-headers">Our Services</h4>
@@ -44,9 +35,18 @@ function Footer() {
                                 <li><Link className="footer-links" href="/ContactUs">Terms and Conditions</Link></li>
                             </div>
                         </div>
+                        <div className="column-four quick-links">
+                            <div>
+                                <h4 className="footer-headers">Quick Links</h4>
+                                <li><Link className="footer-links" href="/">Home</Link></li>
+                                <li><Link className="footer-links" href="/AboutUs">About Us</Link></li>
+                                <li><Link className="footer-links" href="/ContactUs">Our News</Link></li>
+                                <li><Link className="footer-links" href="/ContactUs">Contact Us</Link></li>
+                            </div>
+                        </div>
                         <div className="column-four">
                             <div className="footer-up">
-                                <p className="footer-promo-text">Pixel By Pixel is a digital marketing agency that specializes in professional website design and custom web app development.</p>
+                                <h6 className="footer-promo-text">Pixel By Pixel is a digital marketing agency that specializes in professional website design and custom web app development.</h6>
                                 <Image
                                     src={footerLogo}
                                     alt="pixelbypixel footer logo"
