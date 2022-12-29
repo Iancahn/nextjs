@@ -44,6 +44,11 @@ h4 {
     margin-bottom: 0.9em;
 }
 
+.service-h1 {
+    color: $pixel-black;
+    max-width: 65vw;
+}
+
 h5 {
     font-size: 1rem;
 }
@@ -92,6 +97,14 @@ p {
 
 .blue-font {
     color: $pixel-blue;
+}
+
+.gray-font {
+    color: $pixel-gray;
+}
+
+.gray-font2 {
+    color: $pixel-gray2;
 }
 
 // Font Styling End

@@ -12,6 +12,7 @@ $pixel-yellow: #ffd401;
 $pixel-black: #030303;
 $pixel-offBlack: #1a1a1a;
 $pixel-gray: #7b8b9b;
+$pixel-gray2: #B2B2B2;
 $pixel-white: #fff;
 $pixel-offwhite: #ececec;
 $pixel-grayborder: rgba(0, 0, 0, 0.123);
@@ -47,6 +48,18 @@ body {
 // section {
 //     padding: 6em 0;
 // }
+
+.fullsize-section {
+    width: 82vw;
+    margin: auto;
+    padding-bottom: 4em;
+}
+
+.service-hero {
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+}
+
 
 .white-section {
     background-color: $pixel-white;
@@ -264,6 +277,11 @@ body {
     margin: auto;
 }
 
+.container80 {
+    width: 80vw;
+    margin: auto;
+}
+
 .footer-container {
     max-width: 100vw;
     margin: auto;
@@ -291,7 +309,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     margin: auto;
-    width: 74vw;
+    width: 72vw;
 }
 
 .column {
@@ -423,8 +441,8 @@ footer {
     color: $pixel-white;
 }
 
-.width-test {
-    max-width: 60%;
+.service-heading-width {
+    max-width: 60vw;
 }
 
 .blackbox {
@@ -483,6 +501,7 @@ footer h4 {
     font-size: 1rem;
     padding: 0.2em 0 1.5em 0;
     font-weight: 500;
+    line-height: 2;
 }
 
 .footer-up {
@@ -502,4 +521,16 @@ footer h4 {
     h3 {
         color: $pixel-white;
     }
+}
+
+// spacings
+
+.spacing-three {
+    padding: 5em 0;
+    margin: auto;
+}
+
+.spacing-two {
+    padding: 0 2em;
+    margin: auto;
 }

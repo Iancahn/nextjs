@@ -30,7 +30,7 @@ function Navbar() {
                             <Link className="nav-link" href="/MonthToMonth">
                                 Month to Month
                             </Link>
-                            <Link className="nav-link" href="/WebDesign">
+                            <Link className="nav-link" href="/WebsiteDesign">
                                 Website Design
                             </Link>
                             <Link className="nav-link" href="/GraphicDesign">
