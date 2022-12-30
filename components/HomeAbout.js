@@ -5,8 +5,8 @@ import AboutUs from '../public/assets/about-pixelbypixel.jpg';
 function HomeAbout() {
     return (
         <div>
-            <section className="white-section">
-                <div className="container">
+            <section className="medium--padding whiteBack">
+                <div className="container--75">
                     <h3 className="section-title black-font">About Us</h3>
                     <div className="row">
                         <div className="column">

@@ -21,8 +21,6 @@ $pixel-grayborder: rgba(0, 0, 0, 0.123);
 @import "./navbar";
 @import "./fonts";
 @import "./casestudies";
-
-
 @import "./home";
 @import "./monthtomonth";
 @import "./websitedesign";
@@ -44,6 +42,130 @@ body {
     font: 100% $font-stack;
     color: $pixel-darkBlue;
 }
+
+// Section Styling Starts
+
+.large--padding {
+    padding: 12em 0em;
+}
+
+.large--top {
+    padding-top: 12em;
+}
+
+.large--bot {
+    padding-bottom: 12em;
+}
+
+.medium--padding {
+    padding: 6em 0em;
+}
+
+.medium--top {
+    padding-top: 6em;
+}
+
+.medium--bot {
+    padding-bottom: 6em;
+}
+
+.small--padding {
+    padding: 3em 0;
+}
+
+.small--top {
+    padding-top: 3em;
+}
+
+.small--bot {
+    padding-bottom: 3em;
+}
+
+.no--padding {
+    padding: 0;
+}
+
+// Section Styling Ends
+
+// Row Sizings Starts
+
+.container--85 {
+    width: 85vw;
+    margin: auto;
+}
+
+.container--80 {
+    width: 80vw;
+    margin: auto;
+}
+
+.container--75 {
+    width: 75vw;
+    margin: auto;
+}
+
+.container--65 {
+    width: 65vw;
+    margin: auto;
+}
+
+// Row Styling Ends
+
+// Background Styling Starts
+
+.whiteBack {
+    background-color: $pixel-white;
+    color: $pixel-offBlack;
+}
+
+.blueBack {
+    background-color: $pixel-darkBlue;
+    color: $pixel-white;
+}
+
+.grayBack {
+    background-color: $pixel-offwhite;
+}
+
+.blackBack {
+    background-color: $pixel-black;
+    color: $pixel-white;
+}
+
+.blue-section-line {
+    border-top: 10px $pixel-white solid;
+    background-color: $pixel-darkBlue;
+    color: $pixel-white;
+    padding: 12em 0em;
+}
+
+// Background Styling Ends
+
+//Font Colors Starts
+
+.black-font {
+    color: $pixel-black;
+}
+
+.white-font {
+    color: $pixel-white;
+}
+
+.blue-font {
+    color: $pixel-blue;
+}
+
+.gray-font {
+    color: $pixel-gray;
+}
+
+.gray-font2 {
+    color: $pixel-gray2;
+}
+
+// Font Styling End
+
+
 
 // section {
 //     padding: 6em 0;
@@ -91,12 +213,12 @@ body {
     padding-bottom: 6em;
 }
 
-.blue-section-line {
-    border-top: 10px $pixel-white solid;
-    background-color: $pixel-darkBlue;
-    color: $pixel-white;
-    padding: 12em 0em;
-}
+// .blue-section-line {
+//     border-top: 10px $pixel-white solid;
+//     background-color: $pixel-darkBlue;
+//     color: $pixel-white;
+//     padding: 12em 0em;
+// }
 
 .black-section {
     background-color: $pixel-black;
@@ -295,15 +417,6 @@ body {
 
 }
 
-.footer-container-content {
-    // width: 70vw;
-    // // margin: auto;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // vertical-align: baseline;
-}
-
 .row {
     display: flex;
     -webkit-align-items: center;
@@ -336,10 +449,6 @@ body {
 .column-no-padding {
     max-width: 50%;
     padding: 1em 2em 0em 0em;
-}
-
-.column img {
-    // width: 100%;
 }
 
 .column-img {

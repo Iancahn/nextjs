@@ -13,8 +13,8 @@ import socialMediaServices from '../public/assets/social-media-marketing-service
 
 function HomeServices() {
     return (
-        <section className="white-section">
-            <div className="container">
+        <section className="medium--top whiteBack">
+            <div className="container--75">
                 <h3 className="section-title black-font">Our Services</h3>
                 <div className="work-container">
                     <div className="work-block">

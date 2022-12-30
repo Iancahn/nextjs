@@ -1,7 +1,6 @@
 // import functionality
 import Image from 'next/image';
 
-import WorkProject from './WorkProject';
 // import Animation
 // import { motion } from "framer-motion";
 // import { filterProps } from 'framer-motion';
@@ -17,13 +16,11 @@ import cycad from '../public/assets/cycad-estate-portfolio.jpg';
 function HomeServices() {
     return (
         <div>
-            <section className="white-section">
-                <div className="container">
+            <section className="medium--top whiteBack">
+                <div className="container--75 small--bot">
                     <h3 className="section-title black-font">Recent Projects</h3>
                 </div>
             </section>
-
-            {/* test slider */}
             <div className="slider">
                 <div className="slide-track">
                     <div className="slide">

@@ -7,8 +7,8 @@ import FiveStar from "../public/assets/five-star.png";
 function HomeReviews() {
     return (
         <div>
-            <section className="gray-section">
-                <div className="container">
+            <section className="medium--padding grayBack">
+                <div className="container--75">
                     <h3 className="section-title black-font">Some happy clients</h3>
                     <div className="row">
                         <div className="column">

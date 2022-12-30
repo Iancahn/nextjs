@@ -22,8 +22,8 @@ import wildjasmine from '../public/assets/wild-jasmine-logo.png';
 
 function HomeClients() {
     return (
-        <section className="blue-section">
-            <div className="container">
+        <section className="medium--bot blueBack">
+            <div className="container--75">
                 <div className="row">
                     <div className="centered">
                         <h3 className="section-title white-font"><span>Some of our clients</span></h3>
