@@ -27,14 +27,23 @@ function Navbar() {
                     {/* <li className='dropdown'>Our Services <FontAwesomeIcon icon={faCaretDown} /> */}
                     <li className='dropdown'>Our Services
                         <div className='dropdown-content'>
-                            <Link className="nav-link" href="/MonthToMonth">
-                                Month to Month
+                            <Link className="nav-link" href="/GraphicDesign">
+                                Brand Design
                             </Link>
                             <Link className="nav-link" href="/WebsiteDesign">
                                 Website Design
                             </Link>
-                            <Link className="nav-link" href="/GraphicDesign">
-                                Graphic Design
+                            <Link className="nav-link" href="/DigitalMarketing">
+                                Digital Marketing
+                            </Link>
+                            <Link className="nav-link" href="/SearchEngineOptimization">
+                                SEO Services
+                            </Link>
+                            <Link className="nav-link" href="/PayPerClick">
+                                Pay Per Click
+                            </Link>
+                            <Link className="nav-link" href="/SocialMediaMarketing">
+                                Social Media Services
                             </Link>
                         </div>
                     </li>

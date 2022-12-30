@@ -3,12 +3,12 @@ import React from 'react';
 import ServiceHeader from '../components/ServiceHeader';
 import Calltoaction from '../components/Calltoaction';
 
-function MonthToMonth(props) {
+function DigitalMarketing(props) {
     return (
         <div>
             <div className="month-to-month-header">
                 <div className="container2">
-                    <ServiceHeader title="Get your website designed without breaking the bank." type="MONTH TO MONTH PACKAGES" />
+                    <ServiceHeader title="Get your website designed without breaking the bank." type="NOW  DIGITAL MARKETING" />
                 </div>
             </div>
             <section>
@@ -34,4 +34,4 @@ function MonthToMonth(props) {
     )
 }
 
-export default MonthToMonth;
+export default DigitalMarketing;

@@ -10,7 +10,7 @@ import usp2 from '../public/assets/website-fact2.jpg';
 import usp3 from '../public/assets/website-fact3.jpg';
 import monthtomonth from '../public/assets/month-to-month-website-design.jpg';
 
-function GraphicDesign() {
+function SearchEngineOptimization() {
     return (
         <div>
             <section className='service-hero'>
@@ -233,4 +233,4 @@ function GraphicDesign() {
     )
 }
 
-export default GraphicDesign;
+export default SearchEngineOptimization;

@@ -10,12 +10,12 @@ import usp2 from '../public/assets/website-fact2.jpg';
 import usp3 from '../public/assets/website-fact3.jpg';
 import monthtomonth from '../public/assets/month-to-month-website-design.jpg';
 
-function GraphicDesign() {
+function SocialMedia() {
     return (
         <div>
             <section className='service-hero'>
                 <div className="container2">
-                    <h1 className="service-h1"><span className="gray-font2">Graphic Design</span><br />We build websites<br />that helps you grow<span className="blue">.</span></h1>
+                    <h1 className="service-h1"><span className="gray-font2">Social Media Services</span><br />We build websites<br />that helps you grow<span className="blue">.</span></h1>
                 </div>
             </section >
             <div className="fullsize-section">
@@ -233,4 +233,4 @@ function GraphicDesign() {
     )
 }
 
-export default GraphicDesign;
+export default SocialMedia;

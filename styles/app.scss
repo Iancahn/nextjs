@@ -488,6 +488,10 @@ footer a {
     margin: 0.6em 0em;
 }
 
+.footer-links:hover {
+    color: $pixel-blue;
+}
+
 .copyright {
     margin-top: 1em;
     font-size: 1rem;
