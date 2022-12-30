@@ -15,7 +15,7 @@ function HomeServices() {
     return (
         <section className="white-section">
             <div className="container">
-                <h3 className="section-title black-font"><span>Our Services</span></h3>
+                <h3 className="section-title black-font">Our Services</h3>
                 <div className="work-container">
                     <div className="work-block">
                         <Image
