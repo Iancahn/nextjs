@@ -51,6 +51,7 @@ header {
         background-color: inherit;
         font-family: inherit;
         margin: 0;
+        cursor: pointer;
     }
 
     .main-logo {
@@ -127,7 +128,7 @@ header.active {
     box-shadow: rgb(94 98 119 / 30%) 0 0 20px 2px;
 
     .contact-us-btn {
-        background-color: $pixel-darkBlue;
+        background-color: $pixel-offBlack;
         color: $pixel-white;
         font-size: 1rem;
         padding: 1rem 2rem;
@@ -174,10 +175,12 @@ header.active {
         display: block;
         font-size: 1.5rem;
         color: $pixel-darkBlue;
+        cursor: pointer;
     }
 
     .dropdown:hover {
         color: $pixel-blue;
+        cursor: pointer;
     }
 
     .main-nav {

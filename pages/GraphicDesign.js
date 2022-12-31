@@ -14,11 +14,11 @@ function GraphicDesign() {
     return (
         <div>
             <section className='service-hero'>
-                <div className="container2">
+                <div className="container--65">
                     <h1 className="service-h1"><span className="gray-font2">Graphic Design</span><br />We build websites<br />that helps you grow<span className="blue">.</span></h1>
                 </div>
             </section >
-            <div className="fullsize-section">
+            <div className="container--85 small--bot">
                 <Image
                     src={websiteDevelopment}
                     width={1600}
@@ -26,16 +26,16 @@ function GraphicDesign() {
                     alt="Website Design for big and small companies"
                 />
             </div>
-            <section className="white-section">
-                <div className="container">
+            <section className="medium--top">
+                <div className="container--75">
                     <div className="row">
                         <br />
                         <p className="home-intro-text black-font">From a solo entrepreneur with a dream, all the way up to large corporations with hundreds of employees, we build web solutions to drive sales and grow your business online.</p>
                     </div>
                 </div>
             </section>
-            <section className="white-section">
-                <div className="container80">
+            <section className="container--80">
+                <div className="medium--top">
                     <div className="row centered">
                         <div className='column-three'>
                             <div className="spacing-two">
@@ -73,8 +73,8 @@ function GraphicDesign() {
                     </div>
                 </div>
             </section>
-            <section className="white-section">
-                <div className="container">
+            <section className="medium--padding whiteBack">
+                <div className="container--75">
                     <h3 className="section-title black-font">Our Services</h3>
                     <div className="row">
                         <div className="column">
@@ -163,41 +163,42 @@ function GraphicDesign() {
 
                 </div>
             </section>
-            <section className="black-section">
-                <div className="row centered">
-                    <div>
+            <section className="medium--padding blackBack">
+                <div className="container--75">
+                    <div className="row centered">
+                        <div>
+                            <h3>Our Process</h3>
+                            <Image
+                                src={monthtomonth}
+                                width={594}
+                                height={488}
+                                alt=""
+                            />
 
-                        <h3>Our Process</h3>
-                        <Image
-                            src={monthtomonth}
-                            width={594}
-                            height={488}
-                            alt=""
-                        />
-
+                        </div>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="column-four">
-                        <p>Title Test</p>
-                        <p>Process Text</p>
-                    </div>
-                    <div className="column-four">
-                        <p>Title Test</p>
-                        <p>Process Text</p>
-                    </div>
-                    <div className="column-four">
-                        <p>Title Test</p>
-                        <p>Process Text</p>
-                    </div>
-                    <div className="column-four">
-                        <p>Title Test</p>
-                        <p>Process Text</p>
+                    <div className="row">
+                        <div className="column-four">
+                            <p>Title Test</p>
+                            <p>Process Text</p>
+                        </div>
+                        <div className="column-four">
+                            <p>Title Test</p>
+                            <p>Process Text</p>
+                        </div>
+                        <div className="column-four">
+                            <p>Title Test</p>
+                            <p>Process Text</p>
+                        </div>
+                        <div className="column-four">
+                            <p>Title Test</p>
+                            <p>Process Text</p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section className="white-section">
-                <div className="container">
+            <section className="medium--padding whiteBack">
+                <div className="container--75">
                     <h3 className="section-title black-font">Latest Projects</h3>
                     <div className="row">
                         <div className="column-three">
@@ -218,8 +219,8 @@ function GraphicDesign() {
                     </div>
                 </div>
             </section>
-            <section className="gray-section">
-                <div className="container">
+            <section className="medium--padding grayBack">
+                <div className="container--75">
                     <h3 className="section-title black-font">Benefits of our website design</h3>
                     <div className="row">
                         <p>The high mile club</p>

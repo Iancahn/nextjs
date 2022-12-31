@@ -6,7 +6,7 @@ $font-stack-bold: "proxima-nova", sans-serif;
 // 700 and italic
 $pixel-blue: #034ff3;
 $pixel-blue-hover: #034ff3de;
-$pixel-blue-hover2: #0943c2;
+$pixel-blue-hover2: #012573;
 $pixel-darkBlue: #01133D;
 $pixel-yellow: #ffd401;
 $pixel-black: #030303;
@@ -165,7 +165,12 @@ body {
 
 // Font Styling End
 
-
+.price-from {
+    font-size: 1rem;
+    color: $pixel-blue;
+    font-weight: 600;
+    margin-top: 2.5em;
+}
 
 // section {
 //     padding: 6em 0;
@@ -421,6 +426,7 @@ body {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-row {
@@ -436,7 +442,7 @@ body {
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 1em 2em 1em 0em;
+    padding: 2em 2em 2em 2em;
 }
 
 .column2 {
@@ -455,6 +461,14 @@ body {
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.column Image {
+    max-width: 100%;
+}
+
+.borderRadius25 {
+    border-radius: 25px;
 }
 
 .latest-work {

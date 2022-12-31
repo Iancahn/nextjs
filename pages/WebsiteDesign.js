@@ -5,10 +5,14 @@ import Calltoaction from '../components/Calltoaction';
 
 // import images
 import websiteDevelopment from '../public/assets/website-development-services.jpg';
+import creativeProcess from '../public/assets/website-design-creative-process.jpg';
 import usp1 from '../public/assets/website-fact1.jpg';
 import usp2 from '../public/assets/website-fact2.jpg';
 import usp3 from '../public/assets/website-fact3.jpg';
 import monthtomonth from '../public/assets/month-to-month-website-design.jpg';
+import wordPressWebsites from '../public/assets/wordpress-website-design.jpg';
+import eCommerceWebsites from '../public/assets/e-commerce-website-design.jpg';
+import customWebsiteDevelopment from '../public/assets/custom-website-development-services.jpg';
 
 function WebsiteDesign() {
     return (
@@ -34,7 +38,7 @@ function WebsiteDesign() {
                     </div>
                 </div>
             </section>
-            <section className="container--75">
+            <section className="container--80">
                 <div className="medium--top">
                     <div className="row centered">
                         <div className='column-three'>
@@ -75,106 +79,104 @@ function WebsiteDesign() {
             </section>
             <section className="medium--padding whiteBack">
                 <div className="container--75">
-                    <h3 className="section-title black-font">Our Services</h3>
-                    <div className="row">
+                    <h3 className="section-title black-font">Our Website Design Services</h3>
+                    <div className="row small--bot">
                         <div className="column">
-                            <h4>MOnth to Month</h4>
-                            <p>Since we first started designing websites way back in early 2014,
-                                we understood that a company's website represents much more than just being some online banner.
-                                It's the very first interaction potential customers has with your company, and should be handled with a certain level of gravitas.</p><br />
-                            <p>With this fact in mind, we have dedicated the past 8 years to master website design, graphic design, SEO and various other digital marketing services.
-                                These valuable skills helps us design websites that not only looks great, but also drives real results for our customers.</p><br />
-                            <p>From our humble beginnings, we have grown to become probably the number one website design agency in Limpopo, based on raw skill and our relentless unwillingness to accept mediocre as good enough.</p>
+                            <h4>Month to Month Website Package</h4>
+                            <p>Our month to month web design product is our latest web product aimed towards new businesses that are just starting out in their entrepreneurial journey.</p>
+                            <br /><p>This website package is ideal for clients that don't want to spend a large amount of money when starting a brand new business with limited funds.</p>
+                            <br /><p>Instead this package allows you to rent a website for a monthly fee that includes a 5 page website, 1 hour of monthly maintenance and even domain hosting.</p>
+                            <p className="price-from">Starting from R499 per month</p>
                         </div>
                         <div className="column">
                             <div>
                                 <Image
                                     src={monthtomonth}
-                                    width={594}
-                                    height={488}
+                                    width={667}
+                                    height={567}
                                     alt=""
+                                    className='borderRadius25'
                                 />
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="column">
-                            <h4>WordPress Websites(Elementor and O3)</h4>
-                            <p>Since we first started designing websites way back in early 2014,
-                                we understood that a company's website represents much more than just being some online banner.
-                                It's the very first interaction potential customers has with your company, and should be handled with a certain level of gravitas.</p><br />
-                            <p>With this fact in mind, we have dedicated the past 8 years to master website design, graphic design, SEO and various other digital marketing services.
-                                These valuable skills helps us design websites that not only looks great, but also drives real results for our customers.</p><br />
-                            <p>From our humble beginnings, we have grown to become probably the number one website design agency in Limpopo, based on raw skill and our relentless unwillingness to accept mediocre as good enough.</p>
-                        </div>
+                    <div className="row small--bot">
                         <div className="column">
                             <div>
                                 <Image
-                                    src={monthtomonth}
-                                    width={594}
-                                    height={488}
+                                    src={wordPressWebsites}
+                                    width={667}
+                                    height={567}
                                     alt=""
+                                    className='borderRadius25'
                                 />
                             </div>
                         </div>
-                    </div>
-                    <div className="row">
                         <div className="column">
-                            <h4>E-Commerce Websites</h4>
-                            <p>Since we first started designing websites way back in early 2014,
-                                we understood that a company's website represents much more than just being some online banner.
-                                It's the very first interaction potential customers has with your company, and should be handled with a certain level of gravitas.</p><br />
-                            <p>With this fact in mind, we have dedicated the past 8 years to master website design, graphic design, SEO and various other digital marketing services.
-                                These valuable skills helps us design websites that not only looks great, but also drives real results for our customers.</p><br />
-                            <p>From our humble beginnings, we have grown to become probably the number one website design agency in Limpopo, based on raw skill and our relentless unwillingness to accept mediocre as good enough.</p>
+                            <h4>WordPress Website Design</h4>
+                            <p>For our WordPress website designs, we offer our clients the choice of two different WordPress frameworks, each with their own unique benefits.</p>
+                            <br /><p>The first framework that most people will be familiar with, is Elementor. Elementor is the ideal framework for template websites that don't need a lot of customization. Elementor websites are ideal for small business clients that just needs the "online brochure" type of website. An Elementor template website is typically a lot faster to build, resulting in a lower pricepoint, but also has the drawbacks of being a less performance based website.</p>
+                            <br /><p>This is where our other framework, called Oxygen3, comes into the picture. Oxygen3 is one of the fastest WordPress framework, as it's code is optimized for better website speed and overall performance in turn of additional features. However, Oxygen3 requires more development time, as each website is custom built (but still a WordPress website design). Using this framework typically results in about a 30% boost in website speed.</p>
+                            <p className="price-from">Ranges from R5 000 to R25 000</p>
                         </div>
-                        <div className="column">
-                            <div>
-                                <Image
-                                    src={monthtomonth}
-                                    width={594}
-                                    height={488}
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="column">
-                            <h4>Custom Websites.</h4>
-                            <p>Since we first started designing websites way back in early 2014,
-                                we understood that a company's website represents much more than just being some online banner.
-                                It's the very first interaction potential customers has with your company, and should be handled with a certain level of gravitas.</p><br />
-                            <p>With this fact in mind, we have dedicated the past 8 years to master website design, graphic design, SEO and various other digital marketing services.
-                                These valuable skills helps us design websites that not only looks great, but also drives real results for our customers.</p><br />
-                            <p>From our humble beginnings, we have grown to become probably the number one website design agency in Limpopo, based on raw skill and our relentless unwillingness to accept mediocre as good enough.</p>
-                        </div>
-                        <div className="column">
-                            <div>
-                                <Image
-                                    src={monthtomonth}
-                                    width={594}
-                                    height={488}
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
 
+                    </div>
+                    <div className="row small--bot">
+                        <div className="column">
+                            <h4>E-Commerce Website Design</h4>
+                            <p>An E-Commerce website offers companies the most convenient and cost-effective way to reach their potential clients online. E-Commerce websites can also help you expand your reach beyond your local area and increase sales.</p>
+                            <br /><p>Showcase your products to a wider audience, letting customers easily browse, compare and purchase products from the comfort of their own home.</p>
+                            <br /><p>Additionally, E-Commerce websites offers excellent data collection, such as browsing or purchasing habits. This data can be used to improve the customer's experience, increase conversion rates and help with website optimization.</p><br />
+                            <br /><p>Another overlooked fact of E-Commerce websites, is the ability to easily process and track orders, manage inventory and even handle shipping and returns. This allows the business owner to save time and focus on other aspects of their running their business.</p>
+                            <p className="price-from">Ranges from R16 000 to R35 000</p>
+                        </div>
+                        <div className="column">
+                            <div>
+                                <Image
+                                    src={eCommerceWebsites}
+                                    width={667}
+                                    height={567}
+                                    alt=""
+                                    className='borderRadius25'
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row small--bot">
+                        <div className="column">
+                            <div>
+                                <Image
+                                    src={customWebsiteDevelopment}
+                                    width={667}
+                                    height={567}
+                                    alt=""
+                                    className='borderRadius25'
+                                />
+                            </div>
+                        </div>
+                        <div className="column">
+                            <h4>Custom Website Design</h4>
+                            <p>A custom website is a website that is tailored specifally to a company's unique needs and goals. Developed from scratch, instead of using a pre-designed template or platform such as WordPress.</p>
+                            <br /><p>Our custom website designs allows a company to stand out from their competitors and differentiate themselves from larger competitors. These websites can be designed and developed to include specific features and functionality needed by the company and even their target audience.</p>
+                            <br /><p>One of the main convincing points of custom website development, is that every company wants to be seen as unique. Imagine the feeling of utter disgust if you were to find out that your website and a competitor uses the same WordPress theme. Now just imagine a client pointing that out.</p>
+                            <br /><p> Our technology language stack consists of HTML5, CSS3, NextJs13, React and ofcourse normal JavaScript. For any databases, we mostly use MySQL.</p>
+                            <p className="price-from">Ranges from R25 000 to R50 000</p>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </section >
             <section className="medium--padding blackBack">
                 <div className="container--75">
-                    <div className="row centered">
+                    <h3 className="section-title white-font">Our Creative Process</h3>
+                    <div className="row">
                         <div>
-                            <h3>Our Process</h3>
                             <Image
-                                src={monthtomonth}
-                                width={594}
-                                height={488}
-                                alt=""
+                                src={creativeProcess}
+                                width={1600}
+                                height={1000}
+                                alt="The creative process we use when designing websites."
+                                className="borderRadius25"
                             />
-
                         </div>
                     </div>
                     <div className="row">
