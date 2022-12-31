@@ -168,7 +168,7 @@ function WebsiteDesign() {
             <section className="medium--padding blackBack">
                 <div className="container--75">
                     <h3 className="section-title white-font">Our Creative Process</h3>
-                    <div className="row">
+                    <div className="row small--padding">
                         <div>
                             <Image
                                 src={creativeProcess}
@@ -179,22 +179,24 @@ function WebsiteDesign() {
                             />
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="column-four">
-                            <p>Title Test</p>
-                            <p>Process Text</p>
-                        </div>
-                        <div className="column-four">
-                            <p>Title Test</p>
-                            <p>Process Text</p>
-                        </div>
-                        <div className="column-four">
-                            <p>Title Test</p>
-                            <p>Process Text</p>
-                        </div>
-                        <div className="column-four">
-                            <p>Title Test</p>
-                            <p>Process Text</p>
+                    <div className="container--85 centered">
+                        <div className="row">
+                            <div className="column-four">
+                                <p className="creative-title">Discovery and Research</p>
+                                <p className="creative-text">The discovery phase is an important part of the project planning process. It involves a thorough analysis of the project goals, target audience, and competition, as well as a review of any existing branding elements or marketing materials or assets that may be relevant to the project.</p>
+                            </div>
+                            <div className="column-four">
+                                <p className="creative-title">Design and Revisions</p>
+                                <p className="creative-text">Process Text</p>
+                            </div>
+                            <div className="column-four">
+                                <p className="creative-title">Development and SEO</p>
+                                <p className="creative-text">Process Text</p>
+                            </div>
+                            <div className="column-four">
+                                <p className="creative-title">Project Launch</p>
+                                <p className="creative-text">Process Text</p>
+                            </div>
                         </div>
                     </div>
                 </div>
