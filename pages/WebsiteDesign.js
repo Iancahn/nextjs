@@ -5,7 +5,7 @@ import Calltoaction from '../components/Calltoaction';
 
 // import images
 import websiteDevelopment from '../public/assets/website-development-services.jpg';
-import creativeProcess from '../public/assets/website-design-creative-process.jpg';
+import creativeProcess from '../public/assets/our-webdesign-creative-process.jpg';
 import usp1 from '../public/assets/website-fact1.jpg';
 import usp2 from '../public/assets/website-fact2.jpg';
 import usp3 from '../public/assets/website-fact3.jpg';
@@ -165,7 +165,7 @@ function WebsiteDesign() {
                     </div>
                 </div>
             </section >
-            <section className="medium--padding blackBack">
+            <section className="medium--top blackBack">
                 <div className="container--75">
                     <h3 className="section-title white-font">Our Creative Process</h3>
                     <div className="row small--padding">
@@ -173,30 +173,32 @@ function WebsiteDesign() {
                             <Image
                                 src={creativeProcess}
                                 width={1600}
-                                height={1000}
+                                height={540}
                                 alt="The creative process we use when designing websites."
                                 className="borderRadius25"
                             />
                         </div>
                     </div>
-                    <div className="container--85 centered">
-                        <div className="row">
-                            <div className="column-four">
-                                <p className="creative-title">Discovery and Research</p>
-                                <p className="creative-text">The discovery phase is an important part of the project planning process. It involves a thorough analysis of the project goals, target audience, and competition, as well as a review of any existing branding elements or marketing materials or assets that may be relevant to the project.</p>
-                            </div>
-                            <div className="column-four">
-                                <p className="creative-title">Design and Revisions</p>
-                                <p className="creative-text">Process Text</p>
-                            </div>
-                            <div className="column-four">
-                                <p className="creative-title">Development and SEO</p>
-                                <p className="creative-text">Process Text</p>
-                            </div>
-                            <div className="column-four">
-                                <p className="creative-title">Project Launch</p>
-                                <p className="creative-text">Process Text</p>
-                            </div>
+                </div>
+            </section>
+            <section className="medium--bot blackBack">
+                <div className="container--85">
+                    <div className="row centered">
+                        <div className="column-four">
+                            <p className="creative-title">Discovery and Research</p>
+                            <p className="creative-text">The discovery phase is an important part of the project planning process. It involves a thorough analysis of the project goals, target audience, and competition, as well as a review of any existing branding elements or marketing materials or assets that may be relevant to the project.</p>
+                        </div>
+                        <div className="column-four">
+                            <p className="creative-title">Design and Revisions</p>
+                            <p className="creative-text">The purpose of our design phase is to complete the creative process based on the information and ideas gathered during the discovery phase. Once we have a good idea of the design direction, we design the website and then start with the revision rounds to ensure the clients are happy.</p>
+                        </div>
+                        <div className="column-four">
+                            <p className="creative-title">Development and SEO</p>
+                            <p className="creative-text">Once the design phase has been signed off, the very exciting part of actually building the website can start. During this phase we use your chosen web technology to design your new website with the latest web design best practices, onsite SEO as well as WCAG web standards.</p>
+                        </div>
+                        <div className="column-four">
+                            <p className="creative-title">Project Launch</p>
+                            <p className="creative-text">The big day is finally here, the day we can actually launch your fancy new website to the world wide web. Once your website has been uploaded, we impliment Google Indexing, double check that all the pages and links work aswell as go through a small bug fixing round.</p>
                         </div>
                     </div>
                 </div>
@@ -223,6 +225,7 @@ function WebsiteDesign() {
                     </div>
                 </div>
             </section>
+
             <section className="medium--padding grayBack">
                 <div className="container--75">
                     <h3 className="section-title black-font">Benefits of our website design</h3>

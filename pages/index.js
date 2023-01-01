@@ -16,6 +16,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pixel By Pixel Digital Marketing Agency</title>
         <link rel="stylesheet" href="https://use.typekit.net/fkp5sti.css" />
       </Head>
