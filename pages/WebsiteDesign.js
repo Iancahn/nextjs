@@ -13,6 +13,9 @@ import monthtomonth from '../public/assets/month-to-month-website-design.jpg';
 import wordPressWebsites from '../public/assets/wordpress-website-design.jpg';
 import eCommerceWebsites from '../public/assets/e-commerce-website-design.jpg';
 import customWebsiteDevelopment from '../public/assets/custom-website-development-services.jpg';
+import newEraHealth from '../public/assets/new-era-health-portfolio.jpg';
+import greenCo from '../public/assets/greenco-portfolio.jpg';
+import steakshop from '../public/assets/steakshop-portfolio.jpg';
 
 function WebsiteDesign() {
     return (
@@ -208,19 +211,37 @@ function WebsiteDesign() {
                     <h3 className="section-title black-font">Latest Projects</h3>
                     <div className="row">
                         <div className="column-three">
-                            <h3>CAC/NEH/GreenCo</h3>
-                            <p>Image Here</p>
-                            <p>Tech Used</p>
+                            <Image
+                                src={steakshop}
+                                width={450}
+                                height={300}
+                                alt="An E-Commerce website we recently designed for the Steakshop butchery"
+                                className="borderRadius25"
+                            />
+                            <h3>The Steakshop</h3>
+                            <p>WooCommerce WordPress</p>
                         </div>
                         <div className="column-three">
-                            <h3>CAC/NEH/GreenCo</h3>
-                            <p>Image Here</p>
-                            <p>Tech Used</p>
+                            <Image
+                                src={newEraHealth}
+                                width={450}
+                                height={300}
+                                alt="An Elementor WordPress website we recently designed for New Era Health Day Hospital"
+                                className="borderRadius25"
+                            />
+                            <h3>NewEraHealth Hospital</h3>
+                            <p>Elementor WordPress</p>
                         </div>
                         <div className="column-three">
-                            <h3>CAC/NEH/GreenCo</h3>
-                            <p>Image Here</p>
-                            <p>Tech Used</p>
+                            <Image
+                                src={greenCo}
+                                width={450}
+                                height={300}
+                                alt="An Oxygen3 WordPress website we recently designed for GreenCo Solar Energy"
+                                className="borderRadius25"
+                            />
+                            <h3>GreenCo Solar</h3>
+                            <p>Oxygen3 WordPress</p>
                         </div>
                     </div>
                 </div>
