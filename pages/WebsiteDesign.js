@@ -214,7 +214,7 @@ function WebsiteDesign() {
                             <Image
                                 src={steakshop}
                                 width={450}
-                                height={300}
+                                height={350}
                                 alt="An E-Commerce website we recently designed for the Steakshop butchery"
                                 className="borderRadius25"
                             />
@@ -225,7 +225,7 @@ function WebsiteDesign() {
                             <Image
                                 src={newEraHealth}
                                 width={450}
-                                height={300}
+                                height={350}
                                 alt="An Elementor WordPress website we recently designed for New Era Health Day Hospital"
                                 className="borderRadius25"
                             />
@@ -236,7 +236,7 @@ function WebsiteDesign() {
                             <Image
                                 src={greenCo}
                                 width={450}
-                                height={300}
+                                height={350}
                                 alt="An Oxygen3 WordPress website we recently designed for GreenCo Solar Energy"
                                 className="borderRadius25"
                             />
