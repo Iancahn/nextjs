@@ -13,6 +13,7 @@ $pixel-black: #030303;
 $pixel-offBlack: #1a1a1a;
 $pixel-gray: #7b8b9b;
 $pixel-gray2: #B2B2B2;
+$pixel-gray3: #e5e5e5;
 $pixel-white: #fff;
 $pixel-offwhite: #ececec;
 $pixel-grayborder: rgba(0, 0, 0, 0.123);
@@ -58,7 +59,7 @@ body {
 }
 
 .medium--padding {
-    padding: 6em 0em;
+    padding: 6em 0em 8em 0;
 }
 
 .medium--top {
@@ -678,4 +679,31 @@ footer h4 {
 .spacing-two {
     padding: 0 2em;
     margin: auto;
+}
+
+.usp-list {
+    // background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+}
+
+.usp-list li {
+    margin: 0 8px 16px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 20px 26px 15px 20px;
+    border-radius: 40px;
+    color: $pixel-offBlack;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark-image {
+    margin-right: 8px;
+    margin-bottom: 3px;
 }

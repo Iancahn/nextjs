@@ -16,6 +16,7 @@ import customWebsiteDevelopment from '../public/assets/custom-website-developmen
 import newEraHealth from '../public/assets/new-era-health-portfolio.jpg';
 import greenCo from '../public/assets/greenco-portfolio.jpg';
 import steakshop from '../public/assets/steakshop-portfolio.jpg';
+import checkmark from '../public/assets/check-marks.png';
 
 function WebsiteDesign() {
     return (
@@ -219,7 +220,7 @@ function WebsiteDesign() {
                                 className="borderRadius25"
                             />
                             <h3>The Steakshop</h3>
-                            <p>WooCommerce WordPress</p>
+                            <p className="blue-font">WooCommerce WordPress</p>
                         </div>
                         <div className="column-three">
                             <Image
@@ -230,7 +231,7 @@ function WebsiteDesign() {
                                 className="borderRadius25"
                             />
                             <h3>NewEraHealth Hospital</h3>
-                            <p>Elementor WordPress</p>
+                            <p className="blue-font">Elementor WordPress</p>
                         </div>
                         <div className="column-three">
                             <Image
@@ -241,19 +242,96 @@ function WebsiteDesign() {
                                 className="borderRadius25"
                             />
                             <h3>GreenCo Solar</h3>
-                            <p>Oxygen3 WordPress</p>
+                            <p className="blue-font">Oxygen3 WordPress</p>
                         </div>
                     </div>
                 </div>
             </section>
-
             <section className="medium--padding grayBack">
                 <div className="container--75">
                     <h3 className="section-title black-font">Benefits of our website design</h3>
+                    <h4 className="sub-section black-font">Reasons why our web development is simply better</h4>
                     <div className="row">
-                        <p>The high mile club</p>
-                        <p>No, not that club, just our guarantee that your website will have a 90% or above rating on Google's Lighthouse audits*</p>
-                        <p>Terms that apply here are the hosting environment, media files and plugins</p>
+                        <ul className="usp-list">
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />
+                                The high mile club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />The high mile club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />The high mile club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />The high mile club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />The high mile club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />No, not that club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />Terms that apply here are the hosting environment</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />No, not that club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />The high mile club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />No, not that club</li>
+                            <li><Image
+                                src={checkmark}
+                                width={30}
+                                height={19}
+                                alt=""
+                                className="checkmark-image"
+                            />The high mile club</li>
+                        </ul>
                     </div>
                 </div>
             </section>
