@@ -260,77 +260,77 @@ function WebsiteDesign() {
                                 alt=""
                                 className="checkmark-image"
                             />
-                                The high mile club</li>
+                                We use HTML5</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />The high mile club</li>
+                            />We use CSS3</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />The high mile club</li>
+                            />We know JavaScript</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />The high mile club</li>
+                            />We use React</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />The high mile club</li>
+                            />We love NextJS</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />No, not that club</li>
+                            />Mobile Friendly Websites</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />Terms that apply here are the hosting environment</li>
+                            />Clean Web Code</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />No, not that club</li>
+                            />Search Engine Optimized</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />The high mile club</li>
+                            />Keyword Researched</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />No, not that club</li>
+                            />Solid Development Process</li>
                             <li><Image
                                 src={checkmark}
                                 width={30}
                                 height={19}
                                 alt=""
                                 className="checkmark-image"
-                            />The high mile club</li>
+                            />WCAG rating AA or above</li>
                         </ul>
                     </div>
                 </div>

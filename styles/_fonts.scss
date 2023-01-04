@@ -42,11 +42,13 @@ h4 {
 .service-name {
     font-size: 1.75rem;
     margin-bottom: 0.9em;
+
 }
 
 .service-h1 {
     color: $pixel-black;
     max-width: 65vw;
+    font-family: $font-stack-bold;
 }
 
 h5 {

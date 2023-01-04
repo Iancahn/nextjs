@@ -19,12 +19,12 @@ function Footer() {
                         <div className="column-four quick-links">
                             <div>
                                 <h4 className="footer-headers">Our Services</h4>
-                                <li><Link className="footer-links" href="/MonthToMonth">Brand Design</Link></li>
+                                <li><Link className="footer-links" href="/GraphicDesign">Brand Design</Link></li>
                                 <li><Link className="footer-links" href="/WebsiteDesign">Website Development</Link></li>
-                                <li><Link className="footer-links" href="/GraphicDesign">Digital Marketing</Link></li>
-                                <li><Link className="footer-links" href="/GraphicDesign">SEO Services</Link></li>
-                                <li><Link className="footer-links" href="/GraphicDesign">PPC Marketing</Link></li>
-                                <li><Link className="footer-links" href="/GraphicDesign">Social Media Marketing</Link></li>
+                                <li><Link className="footer-links" href="/DigitalMarketing">Digital Marketing</Link></li>
+                                <li><Link className="footer-links" href="/SearchEngineOptimization">SEO Services</Link></li>
+                                <li><Link className="footer-links" href="/PayPerClick">PPC Marketing</Link></li>
+                                <li><Link className="footer-links" href="/SocialMediaMarketing">Social Media Marketing</Link></li>
                             </div>
                         </div>
                         <div className="column-four quick-links">

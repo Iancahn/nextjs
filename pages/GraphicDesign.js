@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Calltoaction from '../components/Calltoaction';
 
 // import images
-import websiteDevelopment from '../public/assets/website-development-services.jpg';
+import brandDevelopment from '../public/assets/brand-design-services-header.jpg';
 import usp1 from '../public/assets/website-fact1.jpg';
 import usp2 from '../public/assets/website-fact2.jpg';
 import usp3 from '../public/assets/website-fact3.jpg';
@@ -15,12 +15,12 @@ function GraphicDesign() {
         <div>
             <section className='service-hero'>
                 <div className="container--65">
-                    <h1 className="service-h1"><span className="gray-font2">Graphic Design</span><br />We build websites<br />that helps you grow<span className="blue">.</span></h1>
+                    <h1 className="service-h1"><span className="gray-font2">Brand Design</span><br />Building great brands<br />for great companies<span className="blue">.</span></h1>
                 </div>
             </section >
             <div className="container--85 small--bot">
                 <Image
-                    src={websiteDevelopment}
+                    src={brandDevelopment}
                     width={1600}
                     height={1000}
                     alt="Website Design for big and small companies"
@@ -30,7 +30,8 @@ function GraphicDesign() {
                 <div className="container--75">
                     <div className="row">
                         <br />
-                        <p className="home-intro-text black-font">From a solo entrepreneur with a dream, all the way up to large corporations with hundreds of employees, we build web solutions to drive sales and grow your business online.</p>
+                        {/* <p className="home-intro-text black-font">From a solo entrepreneur with a dream, all the way up to large corporations with hundreds of employees, we build web solutions to drive sales and grow your business online.</p> */}
+                        <p className="home-intro-text black-font">We help clients stand out from their competitors by developing professional brands that builds trust with customers and works well on all types of media and signage.</p>
                     </div>
                 </div>
             </section>
