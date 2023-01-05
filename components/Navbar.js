@@ -1,7 +1,7 @@
 // Import Functions
 import Link from 'next/link';
 import Image from 'next/image';
-
+import Lottie from '../public/assets/BlackLogo-animation.json';
 // import FontAwesome
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
@@ -10,14 +10,16 @@ function Navbar() {
     return (
         < header >
             {/* Add lottie animation logo at later stage */}
+            <lottie-player src='../public/assets/BlackLogo-animation.json' speed="1" style={{ width: "300px", height: "300px" }} loop controls autoplay></lottie-player>
             <Link className="nav-link" href="/">
-                <Image
+                {/* <Image
                     src="/assets/PixelByPixel-web-white-logo.png"
                     height={70}
                     width={394}
                     alt="The main PixelByPixel logo"
                     className="main-logo"
-                />
+                /> */}
+
             </Link>
             <nav>
                 <ul className="main-nav">
